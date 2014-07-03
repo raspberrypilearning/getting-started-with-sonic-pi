@@ -18,12 +18,13 @@ See more information on checking you have these packages installed, and how to i
 
 ## Steps
 
-1. Test the camera
-1. Take a picture with Python
-1. Connect a hardware button
-1. Take a selfie
-1. Stop motion animation
-1. Render the video
+1. First Sounds with Sonic Pi 2
+1. Loop a tune
+1. MIDI notes and Music notes
+1. Change the Sounds
+1. Use Samples
+1. Playing Two Tunes at the Same Time
+1. Live code!
 
 ## Worksheet
 
