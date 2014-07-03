@@ -1,4 +1,4 @@
-#Learn how to live code music with Sonic Pi 2
+#Getting Started making Music with Sonic Pi 2
 
 Ever wanted to make funky music like Daft Punk or Will.i.am but are not sure how to hold a cello, let alone play it?! Well Sonic Pi v2.0 could get you there.
 
