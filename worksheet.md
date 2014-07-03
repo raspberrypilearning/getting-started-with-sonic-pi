@@ -216,4 +216,30 @@ Music often has a repeating backing track, with a separate melody played over th
 5. Now press **play** and you should hear both threads playing at the same time.     
     
 ##Step 7: Live Code!
+Sonic Pi 2 has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time so that coders can perform their code rather than playing prewritten programs. Why not have a go?
+
+###Activity Checklist:
+1. In a new workspace tab type:
+
+	```ruby
+	define :play_my_synth do
+	  use_synth :prophet
+  	  play 50, attack: 0.2, release: 1.3
+      sleep 0.5
+    end
+    
+    loop do
+      play_my_synth
+    end
+    ```
+1. Press **play** to start the program.
+1. Whilst the tune is playing, comment out the last three lines by adding a `#` symbol to the start of each line like this:
+
+	```ruby
+	# loop do
+	#   play_my_synth
+	# end
+	```
+1. Next change some of code in the function, and press **play** again. Now you are really rocking! 
+
 Sonic Pi 2 offers so much more functionality to both coders and musicians alike than has been mentioned here. This worksheet is just a starting point. To learn more read [Sam Aaron's Magi Pi article about Sonic Pi 2 here](http://issuu.com/themagpi/docs/issue23final/1) Pages 44-47.
