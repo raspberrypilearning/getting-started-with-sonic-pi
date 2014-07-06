@@ -250,4 +250,4 @@ Sonic Pi 2 has been developed to be a platform for the live coding of music, so 
 	```
 1. Next change some of code in the function, and press **play** again. Now you are really rocking! 
 
-Sonic Pi 2 offers so much more functionality to both coders and musicians alike than has been mentioned here. This worksheet is just a starting point. To learn more read [Sam Aaron's MagPi article about Sonic Pi 2 here](http://issuu.com/themagpi/docs/issue23final/1) Pages 44-47.
+Sonic Pi 2 offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
