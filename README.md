@@ -31,7 +31,10 @@ See more information on checking you have these packages installed, and how to i
 You will need the following worksheet to get started:
 
 - [The worksheet](worksheet.md)
+- [The second workskeet](worksheet-2.md)
 
+## Learn more
+This worksheet is just a starting point. To learn more read [Sam Aaron's MagPi article about Sonic Pi 2 here](http://issuu.com/themagpi/docs/issue23final/1) Pages 44-47.
 
 ## Licence
 
