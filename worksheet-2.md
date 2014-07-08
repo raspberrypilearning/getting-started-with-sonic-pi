@@ -40,3 +40,7 @@ Take `play 60` for example.
 1. Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
 1. Now change the values for attack and release to see how those parameters affect the note.
 
+## Step 3: Using random
+
+
+### Activity Checklist
