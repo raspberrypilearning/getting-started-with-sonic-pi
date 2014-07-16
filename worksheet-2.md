@@ -39,9 +39,9 @@ Take `play 60` for example.
     ```
 1. Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
 1. Now change the values for attack and release to see how those parameters affect the note.
-1. There are lots of parameters that can change the way a note or samples sound. Try changing the values for the parameters `cutoff:`, `pan:`, `rate:` or `amp:`.
+1. There are lots of parameters that can change the way samples or synths sound. Try changing the values for the parameters `cutoff:`, `pan:`, `rate:` or `amp:`.
 
-For a full list of parameters for each sample click on the **Help** icon, followed by **Samples**, select a sample and scroll down to see a full explanation for each type of paramter that can be used with that sample.
+For a full list of parameters for each sample click on the **Help** icon, followed by **Samples**, select a sample and scroll down to see a full explanation for each type of paramter that can be used with that sample. Same goes for synths!
 
 ## Step 3: Using rrand
 Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`. It will return a value between two values. For a cool effect, use rrand to make the cutoff bounce around.
@@ -50,7 +50,7 @@ Sonic Pi includes a number of functions that can add more interesting elements t
 1. In a blank worksheet type:
 
     ```ruby
-    3.times do
+    loop do
       play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: 80
       sleep 0.2
     end
@@ -59,7 +59,7 @@ Sonic Pi includes a number of functions that can add more interesting elements t
 1. Instead of passing  a number like `80` to the cutoff value, try `rrand(40, 120)` like this:
 
     ```ruby
-    3.times do
+    loop do
       play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: rrand(40, 120)
       sleep 0.2
     end
