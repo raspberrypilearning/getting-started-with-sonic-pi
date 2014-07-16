@@ -40,7 +40,25 @@ Take `play 60` for example.
 1. Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
 1. Now change the values for attack and release to see how those parameters affect the note.
 
-## Step 3: Using random
-
+## Step 3: Using rrand
+Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`. It will return a value between two values. For a cool effect, use rrand to make the cutoff bounce around.
 
 ### Activity Checklist
+1. In a blank worksheet type:
+
+    ```ruby
+    3.times do
+      play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: 80
+      sleep 0.2
+    end
+    ```
+    
+1. Instead of passing  a number like `80` to the cutoff value, try `rrand(40, 120)` like this:
+
+    ```ruby
+    3.times do
+      play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: rrand(40, 120)
+      sleep 0.2
+    end
+    ```
+1. Then you can start to experiement using rand with other parameters. For example add `pan: rrand(-1, 1)` to the play chord line and then press play.    
