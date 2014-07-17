@@ -1,12 +1,14 @@
 # Taking Sonic Pi 2 Further
 
-Sonic Pi 2 is so awesome, that there are just too many features to mention in just one tutorial! If you are feeling like you have got to grips with the [first page](worksheet.md) and you would like to try some other ways to code music then follow the steps below.
+Sonic Pi 2 is so awesome that there are too many features to mention in just one tutorial! If you feel like you have got to grips with the [first page](worksheet.md), and you would like to try some other ways to code music, then follow the steps below.
 
 ## Step 1: Adding effects
-Modern syntherziers have the ability to add effects to sounds. Sonic Pi 2 is no different, you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
 
-### Activity Checklist
-1. In a new worksheet find a sample that you like for example `sample :guit_e_fifths`
+Modern synthesizers have the ability to add effects to sounds. Sonic Pi 2 is no different; you are able to add studio effects such as reverb, echo, and distortion. Of course you have to use code to add the effects!
+
+### Activity checklist
+
+1. In a new worksheet find a sample that you like, for example `sample :guit_e_fifths`.
 1. Wrap the sample in an effects block like this:
     
     ```ruby
@@ -23,15 +25,17 @@ Modern syntherziers have the ability to add effects to sounds. Sonic Pi 2 is no 
       end  
     end
     ```
-1. Play around with some effects and add them to your music, remember that a complete list of effects can be found in the help section of Sonic Pi 2 under **FX**
+1. Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi 2 under **FX**.
 
-## Step 2: Modifying Parameters
-On occasion you might like to make sounds play longer, or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+## Step 2: Modifying parameters
 
-Take `play 60` for example. 
+On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
 
-###Activity Checklist
-1. Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of it's use. So far you have used `play` wuthout any parameters. Let's use some now.
+Take `play 60`, for example. 
+
+###Activity checklist
+
+1. Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
 1. In a new worksheet type:
 
     ```ruby
@@ -41,12 +45,14 @@ Take `play 60` for example.
 1. Now change the values for attack and release to see how those parameters affect the note.
 1. There are lots of parameters that can change the way samples or synths sound. Try changing the values for the parameters `cutoff:`, `pan:`, `rate:` or `amp:`.
 
-For a full list of parameters for each sample click on the **Help** icon, followed by **Samples**, select a sample and scroll down to see a full explanation for each type of paramter that can be used with that sample. Same goes for synths!
+For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
 
 ## Step 3: Using rrand
-Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`. It will return a value between two values. For a cool effect, use rrand to make the cutoff bounce around.
 
-### Activity Checklist
+Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
+
+### Activity checklist
+
 1. In a blank worksheet type:
 
     ```ruby
@@ -64,4 +70,4 @@ Sonic Pi includes a number of functions that can add more interesting elements t
       sleep 0.2
     end
     ```
-1. Then you can start to experiement using rand with other parameters. For example add `pan: rrand(-1, 1)` to the play chord line and then press play.    
+1. Then you can start to experiment using `rrand` with other parameters. For example, add `pan: rrand(-1, 1)` to the play chord line and then press **play**.    
