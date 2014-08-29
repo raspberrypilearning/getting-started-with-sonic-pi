@@ -1,16 +1,16 @@
-# Getting started making music with Sonic Pi 2
+# Getting started making music with Sonic Pi v2.0
 
 Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure how to hold a cello, let alone play it? Sonic Pi v2.0 could get you there.
 
-## Step 1: First sounds with Sonic Pi 2
+## Step 1: First sounds with Sonic Pi v2.0
 
 ![](images/interface.png)
 
-This is the Sonic Pi 2 application interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+This is the Sonic Pi v2.0 application interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
 
 ### Activity checklist:
 
-1. Launch Sonic Pi by clicking on the Main Menu, then Education, and then Sonic Pi.
+1. Launch Sonic Pi by clicking on the Main Menu, then Education, and then Sonic Pi v2.0.
 1. Select **Workspace 1** and type:
 
 	```ruby
@@ -223,7 +223,7 @@ Music often has a repeating backing track, with a separate melody played over th
 
 ## Step 7: Live code!
 
-Sonic Pi 2 has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
+Sonic Pi v2.0 has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
 
 ### Activity checklist:
 
@@ -250,4 +250,4 @@ Sonic Pi 2 has been developed to be a platform for the live coding of music, so 
 	```
 1. Next change some of code in the function, and press **play** again. Now you are really rocking! 
 
-Sonic Pi 2 offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
+Sonic Pi v2.0 offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
