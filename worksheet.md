@@ -163,7 +163,7 @@ end
 
 ### Synths to try
 
-There are lots of cool-sounding synths incluced with Sonic Pi 2. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+There are lots of cool-sounding synths included with Sonic Pi 2. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
 
 ## Step 5: Use samples
 
