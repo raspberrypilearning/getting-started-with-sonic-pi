@@ -12,9 +12,9 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 
 ### Software
 
-- [Sonic-Pi v2.0](http://sonic-pi.net/get-v2.0)
+- Sonic Pi v2.0
 
-See more information on checking you have these packages installed, and how to install them, on the [software installation](software.md) page.
+See more information on checking you have the software installed, and how to install it, on the [software installation](software.md) page.
 
 ## Steps
 
@@ -34,6 +34,7 @@ You will need the following worksheet to get started:
 - [The second worksheet](worksheet-2.md)
 
 ## Learn more
+
 This worksheet is just a starting point. To learn more read [Sam Aaron's MagPi article about Sonic Pi v2.0 here](http://issuu.com/themagpi/docs/issue23final/1) Pages 44-47.
 
 ## Licence
