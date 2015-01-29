@@ -1,10 +1,10 @@
-# Taking Sonic Pi 2 Further
+# Taking Sonic Pi Further
 
-Sonic Pi 2 is so awesome that there are too many features to mention in just one tutorial! If you feel like you have got to grips with the [first page](worksheet.md), and you would like to try some other ways to code music, then follow the steps below.
+Sonic Pi is so awesome that there are too many features to mention in just one tutorial! If you feel like you have got to grips with the [first page](worksheet.md), and you would like to try some other ways to code music, then follow the steps below.
 
 ## Step 1: Adding effects
 
-Modern syntherziers have the ability to add effects to sounds. Sonic Pi 2 is no different, you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
+Modern syntherziers have the ability to add effects to sounds. Sonic Pi is no different, you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
 
 ### Activity Checklist
 
@@ -25,7 +25,7 @@ Modern syntherziers have the ability to add effects to sounds. Sonic Pi 2 is no 
       end  
     end
     ```
-1. Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi 2 under **FX**.
+1. Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi under **FX**.
 
 ## Step 2: Modifying Parameters
 
