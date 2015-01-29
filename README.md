@@ -1,6 +1,6 @@
-# Getting started with Sonic Pi v2.0
-Sonic Pi 2 is an open-source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by Dr Sam Aaron. This resource will help get you started with the basics of Sonic Pi v2.0
+# Getting started with Sonic Pi
 
+Sonic Pi is an open source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by Dr Sam Aaron. This resource will help get you started with the basics of Sonic Pi.
 
 ## Requirements
 
@@ -12,19 +12,9 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 
 ### Software
 
-- Sonic Pi v2.0
+- Sonic Pi v2
 
 See more information on checking you have the software installed, and how to install it, on the [software installation](software.md) page.
-
-## Steps
-
-1. First sounds with Sonic Pi v2.0
-1. Loop a tune
-1. MIDI notes and music notes
-1. Change the sounds
-1. Use samples
-1. Playing two tunes at the same time
-1. Live code!
 
 ## Worksheet
 
