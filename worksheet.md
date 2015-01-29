@@ -1,22 +1,23 @@
-# Getting started making music with Sonic Pi v2.0
+# Getting started with Sonic Pi
 
-Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure how to hold a cello, let alone play it? Sonic Pi v2.0 could get you there.
+Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure how to hold a cello, let alone play it? Sonic Pi could get you there.
 
-## Step 1: First sounds with Sonic Pi v2.0
+## Step 1: First sounds with Sonic Pi
 
 ![](images/interface1.png)
 
-This is the Sonic Pi v2.0 application interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
 
-### Activity checklist:
+1. Launch Sonic Pi from the desktop or applications menu.
 
-1. Launch Sonic Pi by clicking on the Main Menu, then Education, and then Sonic Pi v2.0.
 1. Select **Workspace 1** and type:
 
 	```ruby
 	play 60
 	```
+	
 1. Click on the **play** icon at the top of the screen. What happens?
+
 1. What happens if you type `pley 60` and click on the play icon?
 
 	This is an example of a bug in your code. In later activities, if the error panel displays text you will know that you have a bug that you need to fix. It could be that you have misspelt a word like `play`.
@@ -45,8 +46,6 @@ This is the Sonic Pi v2.0 application interface; it has three main windows. The 
 ## Step 2: Loop a tune
 
 Now you have mastered the basics of Sonic Pi, let's code a tune!
-
-### Activity checklist:
 
 1. Select Workspace 2.
 
@@ -124,7 +123,7 @@ The values that you have been typing after the word `play` represent notes; in f
 | :-----: |:------:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 60      | 62     | 64    | 65    | 67    | 69    | 71    |
 
-This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi 2 you are able to use standard sheet music notation too.
+This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
 
 ### Activity checklist:
 
@@ -141,7 +140,6 @@ This is quite a long process if you know the notes of the song you are trying to
 	sleep 0.5
 	```
 1. Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?	
-
 
 ## Step 4: Change the sounds
 
@@ -163,11 +161,11 @@ end
 
 ### Synths to try
 
-There are lots of cool-sounding synths included with Sonic Pi 2. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
 
 ## Step 5: Use samples
 
-Not only can you create music in Sonic Pi 2 using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
 
 To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
 
@@ -179,9 +177,10 @@ In this example, `loop_amen` is the name of the sample:
   sleep 1.753
 end
 ```
+
 ### Samples to try
 
-There are lots of samples included with Sonic Pi 2. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
+There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
 
 ## Step 6: Playing two tunes at the same time
 
@@ -219,13 +218,10 @@ Music often has a repeating backing track, with a separate melody played over th
     end 
     ```
 5. Now press **play** and you should hear both threads playing at the same time.     
-    
 
 ## Step 7: Live code!
 
-Sonic Pi v2.0 has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
-
-### Activity checklist:
+Sonic Pi has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
 
 1. In a new workspace tab type:
 
@@ -238,7 +234,6 @@ Sonic Pi v2.0 has been developed to be a platform for the live coding of music, 
     
     loop do
       play_my_synth
-    end
     ```
 1. Press **play** to start the program.
 1. Whilst the tune is playing, comment out the last three lines by adding a `#` symbol to the start of each line like this:
@@ -250,4 +245,4 @@ Sonic Pi v2.0 has been developed to be a platform for the live coding of music, 
 	```
 1. Next change some of code in the function, and press **play** again. Now you are really rocking! 
 
-Sonic Pi v2.0 offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
+Sonic Pi offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
