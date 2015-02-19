@@ -1,4 +1,4 @@
-# Software
+# Software Installation
 
 Sonic Pi v2.0 has been included in Raspbian since September 2014 so if you're using a recent image you should have this version installed.
 
