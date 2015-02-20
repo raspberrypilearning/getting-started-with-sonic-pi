@@ -53,8 +53,6 @@ For a full list of parameters for each sample, click on the **Help** icon, follo
 
 Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
 
-### Activity Checklist
-
 1. In a blank worksheet type:
 
     ```ruby
