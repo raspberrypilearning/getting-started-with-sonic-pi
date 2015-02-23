@@ -2,7 +2,7 @@
 
 Sonic Pi is so awesome that there are too many features to mention in just one tutorial! If you feel like you have got to grips with the [first page](worksheet.md), and you would like to try some other ways to code music, then follow the steps below.
 
-## Step 1: Adding effects
+## Adding effects
 
 Modern syntherziers have the ability to add effects to sounds. Sonic Pi is no different, you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
 
@@ -28,7 +28,7 @@ Modern syntherziers have the ability to add effects to sounds. Sonic Pi is no di
     
 1. Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi under **FX**.
 
-## Step 2: Modifying Parameters
+## Modifying Parameters
 
 On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
 
@@ -49,7 +49,7 @@ There are lots of parameters that can also change the way samples or synths soun
 
 For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
 
-## Step 3: Using rrand
+## Using rrand
 
 Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
 
