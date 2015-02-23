@@ -72,3 +72,8 @@ Sonic Pi includes a number of functions that can add more interesting elements t
     ```
     
 1. Then you can start to experiment using `rrand` with other parameters. For example, add `pan: rrand(-1, 1)` to the play chord line and then press **play**.    
+
+## What's next?
+- Can you make your own samples and import them into Sonic Pi?
+- Why not take a look at the [Sonic Pi Competition resource](http://www.raspberrypi.org/learning/sonic-pi-competition-2014/) and plan your submission for next year?
+- Can you create a full original composition and share it with friends?
