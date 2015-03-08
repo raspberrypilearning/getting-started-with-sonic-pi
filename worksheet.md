@@ -231,6 +231,7 @@ Sonic Pi has been developed to be a platform for the live coding of music, so th
     
     loop do
       play_my_synth
+    end
     ```
 1. Press **play** to start the program.
 1. Whilst the tune is playing, comment out the last three lines by adding a `#` symbol to the start of each line like this:
