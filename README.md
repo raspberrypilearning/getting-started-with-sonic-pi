@@ -16,8 +16,6 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 
 - Sonic Pi v2
 
-See more information on checking you have the software installed, and how to install it, on the [software installation](software.md) page.
-
 ## Worksheet
 
 You will need the following worksheet to get started:
