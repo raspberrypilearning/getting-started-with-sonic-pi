@@ -2,6 +2,8 @@
 
 Sonic Pi is an open source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by Dr Sam Aaron. This resource will help get you started with the basics of Sonic Pi.
 
+![](cover.png)
+
 ## Requirements
 
 As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
