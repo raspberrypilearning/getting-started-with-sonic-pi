@@ -47,7 +47,7 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
 
 Now you have mastered the basics of Sonic Pi, let's code a tune!
 
-1. Select Workspace 2.
+1. Select **Workspace 2**.
 
 2. Type the following code:
 
