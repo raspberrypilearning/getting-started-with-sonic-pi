@@ -45,7 +45,7 @@ Take `play 60`, for example.
 
 1. Now change the values for attack and release to see how those parameters affect the note.
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`. For a full list of parameters for each sample click on the **Help** icon, followed by **Samples**, select a sample and scroll down to see a full explanation for each type of paramter that can be used with that sample. Same goes for synths!
+There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`. 
 
 For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
 
