@@ -243,4 +243,6 @@ Sonic Pi has been developed to be a platform for the live coding of music, so th
 	```
 1. Next change some of code in the function, and press **play** again. Now you are really rocking! 
 
+## What next? 
+
 Sonic Pi offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
