@@ -4,7 +4,7 @@ Sonic Pi is so awesome that there are too many features to mention in just one t
 
 ## Adding effects
 
-Modern syntherziers have the ability to add effects to sounds. Sonic Pi is no different, you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
+Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no different, you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
 
 1. In a new worksheet find a sample that you like for example `sample :guit_e_fifths`
 
