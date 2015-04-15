@@ -64,7 +64,7 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
 
 3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is? 
 
-	*Answer: Frère Jacques!*.
+	*Answer: Frère Jacques!*
 
     This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
 
