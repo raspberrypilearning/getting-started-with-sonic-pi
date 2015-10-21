@@ -4,13 +4,13 @@ Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure 
 
 ## First sounds with Sonic Pi
 
-![](images/interface1.png)
+![](images/interface.png)
 
 This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
 
 1. Launch Sonic Pi from the desktop or applications menu.
 
-1. Select **Workspace 1** and type:
+1. Select **Buffer 1** and type:
 
 	```ruby
 	play 60
@@ -47,7 +47,7 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
 
 Now you have mastered the basics of Sonic Pi, let's code a tune!
 
-1. Select **Workspace 2**.
+1. Select **Buffer 2**.
 
 2. Type the following code:
 
@@ -125,7 +125,7 @@ The values that you have been typing after the word `play` represent notes; in f
 
 This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
 
-1. In a new workspace tab type:
+1. In a new buffer tab type:
 
 	```ruby
 	play :c4
@@ -160,7 +160,7 @@ end
 ### Synths to try
 
 There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
-
+g
 ## Use samples
 
 Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
@@ -185,7 +185,7 @@ There are lots of samples included with Sonic Pi. To find the names of them, cli
 Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
 
 
-1. Click on a new workspace tab.
+1. Click on a new buffer tab.
 
 2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
 
@@ -220,7 +220,7 @@ Music often has a repeating backing track, with a separate melody played over th
 
 Sonic Pi has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
 
-1. In a new workspace tab type:
+1. In a new buffer tab type:
 
 	```ruby
 	define :play_my_synth do
