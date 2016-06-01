@@ -75,5 +75,4 @@ Sonic Pi includes a number of functions that can add more interesting elements t
 
 ## What next?
 - Can you make your own samples and import them into Sonic Pi?
-- Why not take a look at the [Sonic Pi Competition resource](http://www.raspberrypi.org/learning/sonic-pi-competition-2014/) and plan your submission for next year?
 - Can you create a full original composition and share it with friends?
