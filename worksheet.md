@@ -4,7 +4,7 @@ Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure 
 
 ## First sounds with Sonic Pi
 
-![](images/interface.png)
+![](images/GUI.png)
 
 This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
 
