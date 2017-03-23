@@ -7,3 +7,7 @@ By following this Sonic Pi tutorial on your Raspberry Pi you will learn:
 - To perform with Sonic Pi by live coding
 - How to add effects and use parameters to change the way notes sound
 - How to use randomisation within a composition. 
+
+This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+
+- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
