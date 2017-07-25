@@ -1,41 +1,68 @@
-## First sounds with Sonic Pi
+## Loop a tune
 
-![](images/GUI.png)
+Now you have mastered the basics of Sonic Pi, let's code a tune!
 
-This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+- Select **Buffer 2**.
 
-- Launch Sonic Pi from the desktop or applications menu.
+2. Type the following code:
 
-- Select **Buffer 1** and type:
+    ```ruby
+    play 60
+    sleep 0.5
+    play 62
+    sleep 0.5
+    play 64
+    sleep 0.5
+    play 60
+    sleep 0.5
+    ```
 
-	```ruby
-	play 60
-	```
-	
-- Click on the **play** icon at the top of the screen. What happens?
+3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is? 
 
-- What happens if you type `pley 60` and click on the play icon?
+	*Answer: Frère Jacques!*
 
-	This is an example of a bug in your code. In later activities, if the error panel displays text you will know that you have a bug that you need to fix. It could be that you have misspelt a word like `play`.
+    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
 
-- Now type:
+4. At the top of your code, above the first `play 60`, type:
 
-	```ruby
-	play 60
-	play 67
-	play 69
-	```
-	
-- Click on the play icon at the top of the screen. What happens?
+    ```ruby
+    2.times do
+    ```
 
-- The computer is playing each note in sequence (one after the other), but it is happening so fast that to us they sound like they are playing at the same time.
+5. And at the bottom of your code, below `sleep 0.5`, type:
 
-	We need to tell the computer to pause between each note. We can do this by typing the following after each `play`:
+    ```ruby
+    end
+    ```
 
-	```ruby
-	sleep 1
-	```
-	The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
+6. Click on the play icon at the top of the screen. What happens?
 
-- Now write a sequence of play and sleep to make a cool-sounding tune!
+    Let's play this part in Sonic Pi.
 
+    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+
+    ```ruby
+    2.times do
+      play 60
+      sleep 0.5
+      play 62
+      sleep 0.5
+      play 64
+      sleep 0.5
+      play 60
+      sleep 0.5
+    end
+    ```
+### Loop forever?
+
+Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever? 
+
+Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+
+```ruby
+loop do
+  play 60
+  sleep 0.5
+end
+```      
+    

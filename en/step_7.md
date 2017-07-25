@@ -1,4 +1,4 @@
-## What next?
-- Can you make your own samples and import them into Sonic Pi?
-- Can you create a full original composition and share it with friends?
+## Getting started with Sonic Pi 2
+
+Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure how to hold a cello, let alone play it? Sonic Pi could get you there.
 

@@ -1,27 +1,9 @@
-## Live code!
+## What next?
 
-Sonic Pi has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
+- Can you make your own samples and import them into Sonic Pi?
+- Can you create a full original composition and share it with friends?
 
-- In a new buffer tab type:
+Explore more features of Sonic Pi.
 
-	```ruby
-	define :play_my_synth do
-	  use_synth :prophet
-  	  play 50, attack: 0.2, release: 1.3
-      sleep 0.5
-    end
-    
-    loop do
-      play_my_synth
-    end
-    ```
-- Press **play** to start the program.
-- Whilst the tune is playing, comment out the last three lines by adding a `#` symbol to the start of each line like this:
-
-	```ruby
-	# loop do
-	#   play_my_synth
-	# end
-	```
-- Next change some of code in the function, and press **play** again. Now you are really rocking! 
+Sonic Pi offers so much more functionality to both coders and musicians alike than has been mentioned here. If you want to try some more features then move onto [the next tutorial here](worksheet-2.md)
 

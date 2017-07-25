@@ -1,19 +1,36 @@
-## Use samples
+## Playing two tunes at the same time
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
 
-In this example, `loop_amen` is the name of the sample:
+- Click on a new buffer tab.
 
-```ruby
-2.times do
-  sample :loop_amen
-  sleep 1.753
-end
-```
+2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
 
-### Samples to try
+3. Underneath `in_thread do`, type your tune. Here I've used a sample for my backing track:
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
+    ```ruby
+    in_thread do
+      loop do
+        sample :loop_amen
+        sleep 1.753
+      end
+    end       
+    ```
+
+    This first 'thread' will act as the melody of your music. Underneath, you can type the code for your backing track or baseline.
+
+4. Type:
+
+    ```ruby
+    in_thread do
+      16.times do
+        play 75
+        sleep 1.753
+        play 74
+        sleep 0.25
+      end
+    end 
+    ```
+5. Now press **play** and you should hear both threads playing at the same time.     
 

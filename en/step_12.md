@@ -1,22 +1,19 @@
-## Change the sounds
+## Use samples
 
-It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
+Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
 
-To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
+To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
 
-In this example, `fm` is the name of the synth:
+In this example, `loop_amen` is the name of the sample:
 
 ```ruby
-use_synth :fm
 2.times do
-  play 60
-  sleep 0.5
-  play 67
-  sleep 0.5
+  sample :loop_amen
+  sleep 1.753
 end
 ```
 
-### Synths to try
+### Samples to try
 
-There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
 
