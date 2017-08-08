@@ -1,19 +1,24 @@
-## Use samples
+## Using rrand
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+- In a blank worksheet type:
 
-In this example, `loop_amen` is the name of the sample:
+    ```ruby
+    loop do
+      play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: 80
+      sleep 0.2
+    end
+    ```
+    
+- Instead of passing  a number like `80` to the cutoff value, try `rrand(40, 120)` like this:
 
-```ruby
-2.times do
-  sample :loop_amen
-  sleep 1.753
-end
-```
-
-### Samples to try
-
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
+    ```ruby
+    loop do
+      play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: rrand(40, 120)
+      sleep 0.2
+    end
+    ```
+    
+- Then you can start to experiment using `rrand` with other parameters. For example, add `pan: rrand(-1, 1)` to the play chord line and then press **play**.    
 

@@ -1,24 +1,22 @@
-## Using rrand
+## Change the sounds
 
-Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
+It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
 
-- In a blank worksheet type:
+To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
 
-    ```ruby
-    loop do
-      play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: 80
-      sleep 0.2
-    end
-    ```
-    
-- Instead of passing  a number like `80` to the cutoff value, try `rrand(40, 120)` like this:
+In this example, `fm` is the name of the synth:
 
-    ```ruby
-    loop do
-      play chord(:a3, :minor).choose, attack: 0, release: 0.3, cutoff: rrand(40, 120)
-      sleep 0.2
-    end
-    ```
-    
-- Then you can start to experiment using `rrand` with other parameters. For example, add `pan: rrand(-1, 1)` to the play chord line and then press **play**.    
+```ruby
+use_synth :fm
+2.times do
+  play 60
+  sleep 0.5
+  play 67
+  sleep 0.5
+end
+```
+
+### Synths to try
+
+There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
 

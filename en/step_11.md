@@ -1,22 +1,21 @@
-## Change the sounds
+## Modifying Parameters
 
-It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
+On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
 
-To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
+Take `play 60`, for example.
 
-In this example, `fm` is the name of the synth:
+- Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
+- In a new worksheet type:
 
-```ruby
-use_synth :fm
-2.times do
-  play 60
-  sleep 0.5
-  play 67
-  sleep 0.5
-end
-```
+    ```ruby
+    play 60, attack: 1, release: 3
+    ```
+    
+- Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
 
-### Synths to try
+- Now change the values for attack and release to see how those parameters affect the note.
 
-There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`. 
+
+For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
 

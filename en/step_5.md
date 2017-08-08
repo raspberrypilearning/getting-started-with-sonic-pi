@@ -1,21 +1,28 @@
-## Modifying Parameters
+## MIDI notes and music notes
 
-On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+The values that you have been typing after the word `play` represent notes; in fact, they are MIDI note numbers. This means we can translate songs played on a piano into Sonic Pi using a table like so:
 
-Take `play 60`, for example.
+`C D E C` or `60 62 64 60` in MIDI notes.
 
-- Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
-- In a new worksheet type:
+**Music Notes to MIDI Note Values**
 
-    ```ruby
-    play 60, attack: 1, release: 3
-    ```
-    
-- Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
+| C       | D      | E     | F     | G     | A     | B     |
+| :-----: |:------:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 60      | 62     | 64    | 65    | 67    | 69    | 71    |
 
-- Now change the values for attack and release to see how those parameters affect the note.
+This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`. 
+- In a new buffer tab type:
 
-For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
+	```ruby
+	play :c4
+	sleep 0.5
+	play :d4
+	sleep 0.5
+	play :e4
+	sleep 0.5
+	play :c4
+	sleep 0.5
+	```
+- Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?	
 
