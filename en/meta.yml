@@ -8,11 +8,15 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: ''
-technologies: rpi, physical computing, python
-site_areas: ''
-steps:
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: music
+technologies: sonic-pi
+site_areas: projects
+hardware: ''
+software: sonic-pi
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: Introduction
 - title: What you will need
 - title: First sounds with Sonic Pi
@@ -25,4 +29,4 @@ steps:
 - title: Adding effects
 - title: Modifying Parameters
 - title: Using rrand
-- title:  What next?
+- title: What next?
