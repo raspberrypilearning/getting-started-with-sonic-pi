@@ -1,5 +1,5 @@
-## What you will need
+## Wat heb je nodig
 
 ### Hardware
 
-* Headphones or a speaker
+* Hoofdtelefoon of een luidspreker
