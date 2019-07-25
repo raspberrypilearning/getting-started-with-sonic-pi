@@ -1,10 +1,10 @@
-## Use samples
+## Gebruik samples
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Je kunt niet alleen muziek maken in Sonic Pi met losse noten, je kunt ook muziek maken met samples. Samples zijn vooraf opgenomen geluiden of melodieën die je in jouw muziek kunt gebruiken. Dit is een heel eenvoudige manier om je muziek geweldig te laten klinken!
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+Om een ​​sample te gebruiken, moet je de code `sample: naam van sample` toevoegen de regels code van je muziekprogramma waar je het wilt afspelen.
 
-In this example, `loop_amen` is the name of the sample:
+In dit voorbeeld is `loop_amen` de naam van de sample:
 
 ```ruby
 2.times do
@@ -13,6 +13,6 @@ In this example, `loop_amen` is the name of the sample:
 end
 ```
 
-### Samples to try
+### Samples om te proberen
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it.
+Er zijn veel samples opgenomen in Sonic Pi. Om de namen ervan te vinden, klik je op **Help** gevolgd door **Samples** onder het helpvenster. Klik op een van de samplenamen voor meer informatie over het gebruik ervan.
