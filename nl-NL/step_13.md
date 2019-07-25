@@ -1,4 +1,4 @@
-## What next?
+## Wat komt er nu?
 
-- Can you make your own samples and import them into Sonic Pi?
-- Can you create a full original composition and share it with friends?
+- Kun je je eigen samples maken en deze in Sonic Pi importeren?
+- Kun je je eigen compositie maken en delen met vrienden?
