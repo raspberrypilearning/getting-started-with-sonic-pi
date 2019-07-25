@@ -1,45 +1,45 @@
 ---
-title: Getting Started With Sonic Pi
+title: Aan de slag met Sonic Pi
 hero_image: images/banner.png
-description: Learn how to live code music on the Raspberry Pi with Sonic Pi
+description: Leer hoe je muziek live kunt coderen op de Raspberry Pi met Sonic Pi
 original_url: https://raspberrypi.org/learning/getting-started-with-sonic-pi
-theme: red
+theme: rood
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: music
+interests: muziek
 technologies: sonic-pi
-site_areas: projects
+site_areas: projecten
 hardware: ''
 software: sonic-pi
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: What you will need
+    title: Wat heb je nodig
   - 
-    title: First sounds with Sonic Pi
+    title: Eerste geluiden met Sonic Pi
   - 
-    title: Loop a tune
+    title: Herhaal een deuntje
   - 
-    title: MIDI notes and music notes
+    title: MIDI-noten en muzieknoten
   - 
-    title: Change the sounds
+    title: Verander de geluiden
   - 
-    title: Use samples
+    title: Gebruik samples
   - 
-    title: Playing two tunes at the same time
+    title: Twee liedjes tegelijkertijd spelen
   - 
-    title: Live code!
+    title: Live coderen!
   - 
-    title: Adding effects
+    title: Effecten toevoegen
   - 
-    title: Modifying Parameters
+    title: Parameters wijzigen
   - 
-    title: Using rrand
+    title: Gebruik van rrand
   - 
-    title: What next?
+    title: Hoe nu verder?
