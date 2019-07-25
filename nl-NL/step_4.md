@@ -1,10 +1,10 @@
-## Loop a tune
+## Herhaal een deuntje
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+Nu heb je de basis van Sonic Pi onder de knie, laten we een deuntje coderen!
 
-- Select **Buffer 2**.
+- Selecteer **Buffer 2**.
 
-2. Type the following code:
+2. Typ de volgende code:
     
     ```ruby
     play 60
@@ -17,29 +17,29 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     sleep 0.5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is?
+3. Klik nu op het afspeelpictogram bovenaan het scherm en het speelt het eerste deel van een deuntje. Kun je vertellen wat het is?
     
-    *Answer: Frère Jacques!*
+    *Antwoord: Vader Jacob!*
     
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    Dit eerste gedeelte wordt twee keer gespeeld. Hoe kun je het herhalen? Je zou hetzelfde gedeelte opnieuw kunnen typen, of we zouden loops (lussen) in je code kunnen introduceren.
 
-4. At the top of your code, above the first `play 60`, type:
+4. Typ bovenaan je code, boven de eerste `play 60`:
     
     ```ruby
     2.times do
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. En onderaan je code, onder de `sleep 0,5`, type je:
     
     ```ruby
     end
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. Klik op het Run pictogram bovenaan het scherm. Wat gebeurt er?
     
-    Let's play this part in Sonic Pi.
+    Laten we dit deel in Sonic Pi spelen.
     
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    In het onderstaande voorbeeld kun je zien dat sommige regels code zijn ingesprongen. Dit maakt het makkelijker om je code te lezen, en eventuele fouten op te lossen, als deze niet werkt wanneer je op de afspeelknop drukt. Je kunt twee keer op de spatiebalk drukken om een ​​coderegel in te springen.
     
     ```ruby
     2.times do
@@ -54,11 +54,11 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     end
     ```
 
-### Loop forever?
+### Voor altijd herhalen?
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever?
+Noten gedurende een bepaald aantal keren herhalen is zeker handig, maar wat als je je deuntje voor altijd wilt herhalen?
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+In plaats van `2.times do` en `end` kun je `loop do` en `end` gebruiken, zoals hier:
 
 ```ruby
 loop do
