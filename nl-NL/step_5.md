@@ -1,18 +1,18 @@
-## MIDI notes and music notes
+## MIDI-noten en muzieknoten
 
-The values that you have been typing after the word `play` represent notes; in fact, they are MIDI note numbers. This means we can translate songs played on a piano into Sonic Pi using a table like so:
+De waarden die je na het woord `play` hebt getypt vertegenwoordigen noten; in feite zijn het MIDI-nootnummers. Dit betekent dat we liedjes die op een piano worden gespeeld kunnen vertalen naar Sonic Pi met behulp van een tabel zoals:
 
-`C D E C` or `60 62 64 60` in MIDI notes.
+`C D E C` of `60 62 64 60` in MIDI-noten.
 
-**Music Notes to MIDI Note Values**
+**Muzieknoten omzetten naar MIDI-nootwaarden**
 
 | C  | D  | E  | F  | G  | A  | B  |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | 60 | 62 | 64 | 65 | 67 | 69 | 71 |
 
-This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
+Dit is best een flink karwei als je de noten van het liedje dat je probeert te spelen kent. Met Sonic Pi kun je ook de standaard bladmuzieknotatie gebruiken.
 
-- In a new buffer tab type:
+- In een nieuw buffer tab typ:
     
     ```ruby
     play :c4
@@ -25,4 +25,4 @@ This is quite a long process if you know the notes of the song you are trying to
     sleep 0.5
     ```
 
-- Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?
+- Druk op **Run** om je deuntje te horen. Klinkt het hetzelfde als toen je MIDI-noten gebruikte?
