@@ -1,20 +1,20 @@
-## Modifying Parameters
+## Parameters wijzigen
 
-On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+Soms wil je geluiden misschien langer of met een ander tempo laten spelen. Dit kan eenvoudig worden bereikt door de parameters van de code die je gebruikt te wijzigen.
 
-Take `play 60`, for example.
+Neem bijvoorbeeld `play 60`.
 
-- Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
-- In a new worksheet type:
+- Klik op **Help** om de Help-documenten te openen, selecteer vervolgens **Taal** aan de linkerkant en scrol omlaag naar **play**. Je zult enkele voorbeelden van het gebruik ervan zien. Tot nu toe heb je `play` zonder parameters gebruikt; laten we er nu een paar gebruiken.
+- Typ in een nieuw werkblad:
     
     ```ruby
     play 60, attack: 1, release: 3
     ```
 
-- Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
+- Druk op de **Run** knop om te horen hoe die ene noot klinkt. Attack (aanval) en release (loslaten) bepalen de amplitude van een noot in de loop van de tijd.
 
-- Now change the values for attack and release to see how those parameters affect the note.
+- Wijzig nu de waarden voor attack en release om te zien hoe deze parameters van invloed zijn op de noot.
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`.
+Er zijn veel parameters die ook de manier waarop samples of synths klinken kunnen veranderen. Probeer de waarden voor `cutoff:`, `pan:`, `rate:` of `amp:` te veranderen.
 
-For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
+Klik voor een volledige lijst met parameters voor elk sample op het pictogram **Help**, gevolgd door **Samples**. Selecteer een sample en scrol naar beneden voor een volledige uitleg voor elk type parameter dat met die sample kan worden gebruikt. Hetzelfde geldt voor synths!
