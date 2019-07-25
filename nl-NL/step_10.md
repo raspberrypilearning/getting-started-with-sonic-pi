@@ -1,10 +1,10 @@
-## Adding effects
+## Effecten toevoegen
 
-Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no different: you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
+Moderne synthesizers hebben de mogelijkheid om effecten toe te voegen aan geluiden. Sonic Pi is niet anders: je kunt studio-effecten toevoegen, zoals galm (reverb), echo en vervorming (distortion). Natuurlijk moet je code gebruiken om de effecten toe te voegen!
 
-- In a new worksheet find a sample that you like, for example `sample :guit_e_fifths`
+- Zoek in een nieuw werkblad een sample die je bevalt, bijvoorbeeld `sample: guit_e_fifths`
 
-- Wrap the sample in an effects block like this:
+- Zet de sample als volgt in een effect blok:
     
     ```ruby
     with_fx :reverb do
@@ -12,7 +12,7 @@ Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no di
     end
     ```
 
-- You can add effects on top of effects like this:
+- Je kunt effecten toevoegen aan effecten zoals hier:
     
     ```ruby
     with_fx :reverb do
@@ -22,4 +22,4 @@ Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no di
     end
     ```
 
-- Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi under **FX**.
+- Speel wat met enkele effecten en voeg ze toe aan je muziek. Vergeet niet dat een volledige lijst met effecten te vinden is in de help sectie van Sonic Pi onder **Effecten**.
