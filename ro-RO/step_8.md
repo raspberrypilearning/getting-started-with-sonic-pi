@@ -1,12 +1,12 @@
-## Playing two tunes at the same time
+## Redarea a două melodii în același timp
 
-Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
+Muzica are adesea o pistă de acompaniament care se reperă, cu o melodie separată interpretată peste aceasta. Până acum, în Sonic Pi ai redat o singură melodie. Să încercăm să redăm două melodii în același timp!
 
-- Click on a new buffer tab.
+- Dă click pe un tab new buffer.
 
-2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
+2. Codul pe care îl folosim pentru a reda două melodii în același timp trebuie să fie între `in_thread do` și `end`.
 
-3. Underneath `in_thread do`, type your tune. Here I've used a sample for my backing track:
+3. Sub `in_thread do`, introdu melodia ta. Aici am folosit un eșantion pentru pista de acompaniament:
     
     ```ruby
     in_thread do
@@ -17,9 +17,9 @@ Music often has a repeating backing track, with a separate melody played over th
     end       
     ```
     
-    This first 'thread' will act as the melody of your music. Underneath, you can type the code for your backing track or baseline.
+    Primul „fir de execuție” (thread) va conține melodia ta. În partea de jos, poți introduce codul pentru pista de acompaniament.
 
-4. Type:
+4. Scrie:
     
     ```ruby
     in_thread do
@@ -32,4 +32,4 @@ Music often has a repeating backing track, with a separate melody played over th
     end 
     ```
 
-5. Now press **play** and you should hear both threads playing at the same time.
+5. Acum, apasă tasta **play** și ar trebui să auzi ambele sunete care sunt redate în același timp.
