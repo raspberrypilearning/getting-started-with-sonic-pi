@@ -1,4 +1,4 @@
-## What next?
+## Ce urmează?
 
-- Can you make your own samples and import them into Sonic Pi?
-- Can you create a full original composition and share it with friends?
+- Poți să creezi propriile eșantioane și să le imporți în Sonic Pi?
+- Poți să creezi o compoziție originală completă și să o distribui prietenilor?
