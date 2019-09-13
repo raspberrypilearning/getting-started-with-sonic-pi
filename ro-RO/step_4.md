@@ -1,10 +1,10 @@
-## Loop a tune
+## Repetă o melodie
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+Acum stăpânești elementele de bază ale Sonic Pi, să scriem cod pentru o melodie!
 
-- Select **Buffer 2**.
+- Selectează **Buffer 2**.
 
-2. Type the following code:
+2. Tastează următorul cod:
     
     ```ruby
     play 60
@@ -17,29 +17,29 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     sleep 0.5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is?
+3. Acum dă click pe pictograma de redare din partea de sus a ecranului și va fi redată prima parte a unei melodii. Poți spune ce melodie este?
     
-    *Answer: Frère Jacques!*
+    *Răspuns: Frère Jacques!*
     
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    Această primă secțiune trebuie redată de două ori. Cum ai putea să o repeți? Ai putea introduce aceeași secțiune din nou, sau am putea începe să introducem bucle în codul tău.
 
-4. At the top of your code, above the first `play 60`, type:
+4. În partea de sus a codului tău, deasupra primei linii ` play 60`, scrie:
     
     ```ruby
     2.times do
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. Iar în partea de jos a codului, sub `sleep 0.5`, scrie:
     
     ```ruby
     end
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. Dă click pe pictograma de redare din partea de sus a ecranului. Ce se întâmplă?
     
-    Let's play this part in Sonic Pi.
+    Să redăm bucata asta în Sonic Pi.
     
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    În exemplul de mai jos, poți vedea că unele linii de cod sunt indentate. Acest lucru ușurează citirea codului și verificarea eventualelor erori în cazul în care nu funcționează atunci când apeși butonul de redare. Poți apăsa de două ori bara de spațiu pentru a indenta linia de cod.
     
     ```ruby
     2.times do
@@ -54,11 +54,11 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     end
     ```
 
-### Loop forever?
+### Repetă la infinit?
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever?
+Repetarea notelor de un anumit număr de ori este cu siguranță utilă, dar ce se întâmplă dacă dorești să repeți melodia la infinit?
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+În loc să folosești `2.times do` și `end` poți scrie `loop do` și `end`, astfel:
 
 ```ruby
 loop do
