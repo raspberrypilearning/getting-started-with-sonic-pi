@@ -1,18 +1,18 @@
-## MIDI notes and music notes
+## Note MIDI și note muzicale
 
-The values that you have been typing after the word `play` represent notes; in fact, they are MIDI note numbers. This means we can translate songs played on a piano into Sonic Pi using a table like so:
+Valorile pe care le-ai introdus după cuvântul `play` reprezintă note; de fapt, sunt numere asociate notelor MIDI. Acest lucru înseamnă că putem traduce melodii cântate la pian în Sonic Pi folosind un tabel ca acesta:
 
-`C D E C` or `60 62 64 60` in MIDI notes.
+`C D E C` sau `60 62 64 60` folosind notele MIDI.
 
-**Music Notes to MIDI Note Values**
+**De la note muzicale la note MIDI**
 
-| C  | D  | E  | F  | G  | A  | B  |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 60 | 62 | 64 | 65 | 67 | 69 | 71 |
+| C (Do) | D (Re) | E (Mi) | F (Fa) | G (Sol) | A (La) | B (Si) |
+|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|
+|   60   |   62   |   64   |   65   |   67    |   69   |   71   |
 
-This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
+Acesta este un proces destul de lung dacă știi notele piesei pe care încerci să o redai. Dar cu Sonic Pi poți folosi și notația muzicală standard.
 
-- In a new buffer tab type:
+- Într-o filă buffer nouă scrie:
     
     ```ruby
     play :c4
@@ -25,4 +25,4 @@ This is quite a long process if you know the notes of the song you are trying to
     sleep 0.5
     ```
 
-- Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?
+- Apasă **play** pentru a asculta melodia. Sună la fel ca atunci când ai folosit note MIDI?
