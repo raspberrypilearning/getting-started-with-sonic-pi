@@ -1,20 +1,20 @@
-## What you will make
+## Ce vei face
 
-Sonic Pi is an open-source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by [Dr Sam Aaron](http://sam.aaron.name/) at the University of Cambridge. He uses the software to perform live with his band. This resource will help get you started with the basics of Sonic Pi so that you can code your own music.
+Sonic Pi este un mediu de programare open source, conceput pentru a crea sunete noi prin cod într-un mediu de codare live; a fost dezvoltat de [Dr. Sam Aaron](http://sam.aaron.name/) de la Universitatea din Cambridge. El folosește acest software pentru a interpreta live cu formația sa. Acest tutorial te va ajuta să te familiarizezi cu noțiunile de bază ale programului Sonic Pi, astfel încât să îți poți crea prin cod propria muzică.
 
-## What you will learn
+## Ce vei învăța
 
-By following this Sonic Pi tutorial on your Raspberry Pi you will learn:
+Urmând acest tutorial Sonic Pi pe Raspberry Pi vei învăța:
 
-- To make sounds by typing text into Sonic Pi
-- To loop a tune so that it repeats
-- What MIDI note numbers are and how to convert them to music notes
-- How to change the sounds by using different synths and samples
-- How to play two tunes at the same time using threads
-- To perform with Sonic Pi by live coding
-- How to add effects and use parameters to change the way notes sound
-- How to use randomisation within a composition. 
+- Să creezi sunete scriind text în Sonic Pi
+- Să redai o melodie într-o buclă astfel încât să se repete
+- Ce reprezintă numerele corespunzătoare notelor MIDI și cum să le convertești în note muzicale
+- Cum să modifici sunetele utilizând sintetizatoare și eșantioane diferite
+- Cum să redai două melodii în același timp folosind fire de execuție
+- Să interpretezi live cu Sonic Pi prin programare
+- Cum să adaugi efecte și să utilizezi parametri pentru a schimba modul în care sună notele
+- Cum se folosește randomizarea în cadrul unei compoziții. 
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Acest proiect acoperă elemente din următoarele domenii ale [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
+- [Folosește elemente de bază de programare pentru a crea programe simple](https://www.raspberrypi.org/curriculum/programming/creator)
