@@ -1,20 +1,20 @@
-## Modifying Parameters
+## Modificarea parametrilor
 
-On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+În unele ocazii, ți-ai putea dori să faci sunetele să dureze mai mult timp sau să fie redate la o frecvență diferită. Acest lucru poate fi realizat cu ușurință prin modificarea parametrilor codului pe care îl folosești.
 
-Take `play 60`, for example.
+Să luăm `play 60`, de exemplu.
 
-- Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
-- In a new worksheet type:
+- Dă click pe **help** pentru a deschide documentația, apoi selectează **lang** în partea stângă, și derulează până la **play**. Vei vedea câteva exemple de utilizare. Până acum ai folosit `play` fără parametri; să folosim câțiva acum.
+- Într-o de foaie de lucru nouă scrie:
     
     ```ruby
     play 60, attack: 1, release: 3
     ```
 
-- Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
+- Apasă pe butonul **play** pentru a afla cum se aude acea notă. Atacul și release-ul controlează amplitudinea unei note în timp.
 
-- Now change the values for attack and release to see how those parameters affect the note.
+- Acum schimbă valorile pentru atac și release pentru a vedea cum acești parametri afectează nota.
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`.
+Există o mulțime de parametri care pot schimba, de asemenea, modul în care sună eșantioanele sau sintetizatoarele. Încearcă să modifici valorile pentru `cutoff:`, `pan:`, `rate:` sau `amp:`.
 
-For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
+Pentru o listă completă a parametrilor pentru fiecare eșantion, dă click pe pictograma **Help**, apoi pe **Samples**. Selectează un eșantion și derulează în jos pentru a vedea o explicație completă pentru fiecare tip de parametru care poate fi utilizat cu acesta. Același lucru este valabil și pentru sintetizatoare!
