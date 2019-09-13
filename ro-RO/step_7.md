@@ -1,10 +1,10 @@
-## Use samples
+## Utilizează eșantioane
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Nu numai că poți crea muzică în Sonic Pi utilizând note individuale, dar poți crea muzică și cu eșantioane. Eșantioanele sunt sunete sau melodii preînregistrate pe care le poți insera în muzica ta. Aceasta este o modalitate foarte simplă de a face muzica ta să sune nemaipomenit!
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+Pentru a utiliza un eșantion, trebuie să adaugi `sample :nume_eșantion` în programul tău acolo unde vrei să fie redat.
 
-In this example, `loop_amen` is the name of the sample:
+În acest exemplu, `loop_amen` este numele eșantionului:
 
 ```ruby
 2.times do
@@ -13,6 +13,6 @@ In this example, `loop_amen` is the name of the sample:
 end
 ```
 
-### Samples to try
+### Eșantioane de încercat
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it.
+Există o mulțime de eșantioane incluse în Sonic Pi. Pentru a găsi numele acestora, dă click pe **help** apoi pe **samples** în partea stângă a ferestrei de ajutor. Dă click pe numele oricăruia dintre eșantioane pentru a obține mai multe informații despre cum să îl folosești.
