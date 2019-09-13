@@ -1,5 +1,5 @@
-## What you will need
+## De ce vei avea nevoie
 
 ### Hardware
 
-* Headphones or a speaker
+* Căști sau un difuzor
