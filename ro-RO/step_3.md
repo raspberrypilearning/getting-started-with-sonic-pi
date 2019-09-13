@@ -1,24 +1,24 @@
-## First sounds with Sonic Pi
+## Primele sunete cu Sonic Pi
 
 ![](images/GUI.png)
 
-This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+Aceasta este interfața Sonic Pi; are trei ferestre principale. Cea mai mare este pentru scrierea codului tău și o numim Panou pentru programare. Există, de asemenea, un panou de ieșire care afișează informații despre program în timp ce rulează. Când dai click pe butonul **help** din partea de sus a ferestrei, un al treilea panou apare în partea de jos pentru a afișa documentația de ajutor. Acesta conține informații despre diferite bucăți de cod pe care le poți încerca și utiliza, precum și diferite sunete de sintetizator, eșantioane și multe altele.
 
-- Launch Sonic Pi from the desktop or applications menu.
+- Lansează Sonic Pi de pe desktop sau din meniul de aplicații.
 
-- Select **Buffer 1** and type:
+- Selectează **Buffer 1** și scrie:
     
     ```ruby
     play 60
     ```
 
-- Click on the **play** icon at the top of the screen. What happens?
+- Dă click pe pictograma **play** din partea de sus a ecranului. Ce se întâmplă?
 
-- What happens if you type `pley 60` and click on the play icon?
+- Ce se întâmplă dacă introduci `pley 60` și dai click pe pictograma de redare?
     
-    This is an example of a bug in your code. In later activities, if the error panel displays text you will know that you have a bug that you need to fix. It could be that you have misspelt a word like `play`.
+    Acesta este un exemplu de eroare în codul tău. În activitățile următoare, dacă panoul de eroare afișează text, vei ști că ai o eroare pe care trebuie să o înlături. S-ar putea să fi scris greșit un cuvânt ca `play`.
 
-- Now type:
+- Acum introdu codul:
     
     ```ruby
     play 60
@@ -26,16 +26,16 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
     play 69
     ```
 
-- Click on the play icon at the top of the screen. What happens?
+- Dă click pe pictograma de redare din partea de sus a ecranului. Ce se întâmplă?
 
-- The computer is playing each note in sequence (one after the other), but it is happening so fast that to us they sound like they are playing at the same time.
+- Calculatorul redă fiecare notă secvențial (una după alta), dar se întâmplă atât de repede încât pentru noi sună ca și când toate ar fi redate în același timp.
     
-    We need to tell the computer to pause between each note. We can do this by typing the following after each `play`:
+    Trebuie să-i spunem computerului să facă pauză după fiecare notă. Putem face acest lucru prin adăugarea următorului text după fiecare `play`:
     
     ```ruby
     sleep 1
     ```
     
-    The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
+    Valoarea introdusă după cuvântul `sleep` reprezintă durata pauzei în secunde. Valorea 1 reprezintă o secundă. Ce ai scrie pentru o jumătate de secundă?
 
-- Now write a sequence of play and sleep to make a cool-sounding tune!
+- Acum, scrie o secvență de play și sleep pentru a crea o melodie interesantă!
