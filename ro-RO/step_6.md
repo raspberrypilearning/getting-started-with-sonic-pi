@@ -1,10 +1,10 @@
-## Change the sounds
+## Modifică sunetele
 
-It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
+E timpul să-ți faci melodia mai interesantă! Putem face acest lucru prin schimbarea sintetizatorului pe care îl folosește. Sintetizatorul implicit din Sonic Pi este numit `beep`.
 
-To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
+Pentru a folosi un alt sintetizator, trebuie să adaugi codul `use_synth :nume_sintetizator` deasupra secvenței de cod pentru care dorești să îl utilizezi.
 
-In this example, `fm` is the name of the synth:
+În acest exemplu, `fm` este numele sintetizatorului:
 
 ```ruby
 use_synth :fm
@@ -16,6 +16,6 @@ use_synth :fm
 end
 ```
 
-### Synths to try
+### Sintetizatoare de încercat
 
-There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+În Sonic Pi sunt incluse o mulțime de sintetizatoare care sună interesant. Pentru a le afla numele, dă click pe pictograma **help** din partea de sus a ecranului, astfel încât să apară fereastra de documentație. Apoi alege **Synths** din filele din partea stângă a ferestrei de ajutor. Dă click pe numele oricăruia dintre sintetizatoare pentru a obține mai multe informații despre cum să îl folosești.
