@@ -26,4 +26,4 @@ Sonic Pi is ontwikkeld als een platform voor het live coderen van muziek, zodat 
     # end
     ```
 
-- Wijzig vervolgens een deel van de code in de functie en druk nogmaals op **Run**. Nu ben je echt aan het rocken!
+- Next change some of code in the function, and press **play** again. Now you are really rocking!
