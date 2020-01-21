@@ -25,4 +25,4 @@ Dit is best een flink karwei als je de noten van het liedje dat je probeert te s
     sleep 0.5
     ```
 
-- Druk op **Run** om je deuntje te horen. Klinkt het hetzelfde als toen je MIDI-noten gebruikte?
+- Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?
