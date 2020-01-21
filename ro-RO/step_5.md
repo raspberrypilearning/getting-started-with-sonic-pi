@@ -25,4 +25,4 @@ Acesta este un proces destul de lung dacă știi notele piesei pe care încerci 
     sleep 0.5
     ```
 
-- Apasă **play** pentru a asculta melodia. Sună la fel ca atunci când ai folosit note MIDI?
+- Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?
