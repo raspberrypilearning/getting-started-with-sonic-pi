@@ -26,4 +26,4 @@ Sonic Pi a fost dezvoltat pentru a fi o platformă pentru redarea live a muzicii
     # end
     ```
 
-- Apoi schimbă o parte din cod în funcție, și apasă **play** din nou. Acum chiar ești tare!
+- Next change some of code in the function, and press **play** again. Now you are really rocking!
