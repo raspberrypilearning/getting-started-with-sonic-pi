@@ -32,4 +32,4 @@ Muziek heeft vaak een herhalende achtergrondtrack, met een afzonderlijke melodie
     end 
     ```
 
-5. Now press **play** and you should hear both threads playing at the same time.
+5. Druk nu op **play** en je zou beide threads op hetzelfde moment moeten horen.
