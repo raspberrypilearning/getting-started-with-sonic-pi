@@ -53,6 +53,7 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
       sleep 0.5
     end
     ```
+    
 ### Loop forever?
 
 Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever? 
