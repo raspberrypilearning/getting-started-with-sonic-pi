@@ -32,4 +32,4 @@ Muzica are adesea o pistă de acompaniament care se reperă, cu o melodie separa
     end 
     ```
 
-5. Acum, apasă tasta **play** și ar trebui să auzi ambele sunete care sunt redate în același timp.
+5. Now press **play** and you should hear both threads playing at the same time.
