@@ -35,6 +35,7 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
 	```ruby
 	sleep 1
 	```
+	
 	The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
 
 - Now write a sequence of play and sleep to make a cool-sounding tune!

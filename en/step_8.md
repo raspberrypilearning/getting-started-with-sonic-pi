@@ -2,7 +2,6 @@
 
 Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
 
-
 - Click on a new buffer tab.
 
 2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
@@ -32,5 +31,6 @@ Music often has a repeating backing track, with a separate melody played over th
       end
     end 
     ```
+    
 5. Now press **play** and you should hear both threads playing at the same time.     
 

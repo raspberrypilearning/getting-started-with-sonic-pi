@@ -24,5 +24,6 @@ This is quite a long process if you know the notes of the song you are trying to
 	play :c4
 	sleep 0.5
 	```
+	
 - Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?	
 
