@@ -3,9 +3,11 @@
 - Kun je je eigen samples maken en deze in Sonic Pi importeren?
 - Kun je je eigen compositie maken en delen met vrienden?
 
+***
+Dit project werd vertaald door vrijwilligers:
 
-**Door de community geleverde vertaling**
+Cor Groot
 
-Dit project werd vertaald door **Cor Groot** en gecontroleerd door **Robert-Jan Kempenaar**.
+Robert-Jan Kempenaar
 
-Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
