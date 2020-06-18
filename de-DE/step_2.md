@@ -1,5 +1,5 @@
-## What you will need
+## Was du brauchen wirst
 
 ### Hardware
 
-* Headphones or a speaker
+* Kopfhörer oder einen Lautsprecher
