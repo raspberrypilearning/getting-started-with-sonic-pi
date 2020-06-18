@@ -1,20 +1,20 @@
-## Modifying Parameters
+## تعديل المعاملات
 
-On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+في بعض الأحيان، قد ترغب في تشغيل الأصوات لفترة أطول أو بمعدل مختلف. يمكن تحقيق ذلك بسهولة عن طريق تعديل معاملات التعليمات البرمجية التي تستخدمها.
 
-Take `play 60`, for example.
+خذ `عزف 60`، على سبيل المثال.
 
-- Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
-- In a new worksheet type:
+- انقر فوق **help** لفتح مستندات المساعدة، ثم اختر **lang** على الجانب الأيسر، ثم انتقل إلى **play**. وسترون بعض الأمثلة على استخدامه. حتى الآن لقد استخدمت `عزف ` دون أي معاملات؛ دعونا نستخدم بعضها الآن.
+- في نموذج ورقة العمل جديدة:
     
     ```ruby
-    play 60, attack: 1, release: 3
+    عزف 60 ، هجوم: 1 ، إطلاق: 3
     ```
 
-- Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
+- اضغط على زر **عزف ** لسماع صوت هذا اللحن. يتحكم الهجوم والتحرير في سعة النوتة بمرور الوقت.
 
-- Now change the values for attack and release to see how those parameters affect the note.
+- الآن قم بتغيير قيم الهجوم والإطلاق لمعرفة كيف تؤثر هذه المعاملات على اللحن.
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`.
+هناك الكثير من المعاملات التي يمكن أيضا أن تغير طريقة صوت العينات أو الموالفة. حاول تغيير القيم إلى `cutoff:`، `pan:`، `المعدل:` أو `amp:`.
 
-For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
+للحصول على قائمة كاملة من المعاملات لكل عينة ، انقر على أيقونة **Help** ، تليها **عينات **. اختر نموذجًا وقم بالتمرير للأسفل لرؤية شرح كامل لكل نوع من المعاملات التي يمكن استخدامها مع هذه العينة. وينطبق نفس الشيء على الموالفة!
