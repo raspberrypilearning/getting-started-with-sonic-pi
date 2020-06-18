@@ -1,28 +1,28 @@
-## MIDI notes and music notes
+## نوتات MIDI والنوتات الموسيقية
 
-The values that you have been typing after the word `play` represent notes; in fact, they are MIDI note numbers. This means we can translate songs played on a piano into Sonic Pi using a table like so:
+القيم التي كنت تكتبها بعد كلمة `عزف` تمثل النوتات الموسيقية؛ في الواقع، هي أرقام نوتات MIDI. هذا يعني أنه يمكننا ترجمة الأغاني التي يتم عزفها على البيانو بال Sonic Pi باستخدام جدول مثل:
 
-`C D E C` or `60 62 64 60` in MIDI notes.
+`C D E C` أو `60 62 64 60` في نوتات MIDI.
 
-**Music Notes to MIDI Note Values**
+**نوتات موسيقية لقيم نوتات MIDI**
 
 | C  | D  | E  | F  | G  | A  | B  |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | 60 | 62 | 64 | 65 | 67 | 69 | 71 |
 
-This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
+هذه عملية طويلة جدًا إذا كنت تعرف نوتات الأغنية التي تحاول عزفها. مع Sonic Pi يمكنك استخدام ورقة الموسيقى القياسية أيضًا.
 
-- In a new buffer tab type:
+- في علامة تبويب جديدة للمخزن المؤقت:
     
     ```ruby
-    play :c4
-    sleep 0.5
-    play :d4
-    sleep 0.5
-    play :e4
-    sleep 0.5
-    play :c4
-    sleep 0.5
+    عزف :c4
+    سكون 0.5
+    عزف :d4
+    سكون 0.5
+    عزف :e4
+    سكون 0.5
+    عزف :c4
+    سكون 0.5
     ```
 
-- Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?
+- اضغط على ** عزف ** لسماع لحنك. هل يبدو نفس الصوت عندما استخدمت نوتات MIDI؟
