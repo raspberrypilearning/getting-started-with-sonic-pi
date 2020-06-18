@@ -1,29 +1,29 @@
-## Live code!
+## بث مباشر للتعليمات البرمجية!
 
-Sonic Pi has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
+تم تطوير Sonic Pi ليكون منصة للبرمجة الحية للموسيقى، بحيث يمكن التلاعب بالكود البرمجي وتغييره وتكييفه في الوقت الحقيقي؛ وهذا يعني أن المبرمجين يستطيعون تنفيذ تعليماتهم البرمجية بدلاً من تشغيل برامج مكتوبة مسبقاً. لماذا لا تنطلق؟
 
-- In a new buffer tab type:
+- في علامة تبويب جديدة للمخزن المؤقت:
     
     ```ruby
-    define :play_my_synth do
+    حدد :play_my_synth do
       use_synth :prophet
-      play 50, attack: 0.2, release: 1.3
-      sleep 0.5
-    end
+      عزف 50، الهجوم: 0.2، الإصدار: 1.3
+      سكون 0.5
+    نهاية
     
-    loop do
+    حلقة تكرار نفذ
       play_my_synth
     end
     ```
 
-- Press **play** to start the program.
+- اضغط **عزف** لبدء البرنامج.
 
-- Whilst the tune is playing, comment out the last three lines by adding a `#` symbol to the start of each line like this:
+- بينما يتم عزف النغمة، علق على الخطوط الثلاثة الأخيرة بإضافة رمز `#` إلى بداية كل سطر مثل هذا:
     
     ```ruby
-    # loop do
-    #   play_my_synth
-    # end
+    # حلقة تكرار نفذ
+    # play_my_synth
+    # نهاية
     ```
 
-- Next change some of code in the function, and press **play** again. Now you are really rocking!
+- بعد ذلك قم بتغيير بعض التعليمات البرمجية في الدالة، واضغط على **عزف** مرة أخرى. أنت الآن متأرجح جدًا!
