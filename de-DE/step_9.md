@@ -1,8 +1,8 @@
-## Live code!
+## Live-Code!
 
-Sonic Pi has been developed to be a platform for the live coding of music, so that the code can be manipulated, changed and adapted in real time; this means coders can perform their code rather than playing pre-written programs. Why not have a go?
+Sonic Pi wurde als Plattform für die Live-Codierung von Musik entwickelt, sodass der Code in Echtzeit manipuliert, geändert und angepasst werden kann. Dies bedeutet, dass Codierer ihren Code ausführen können, anstatt zuvor geschriebene Programme abzuspielen. Warum nicht mal ausprobieren?
 
-- In a new buffer tab type:
+- In einer neuen Puffer-Registerkarte:
     
     ```ruby
     define :play_my_synth do
@@ -16,14 +16,14 @@ Sonic Pi has been developed to be a platform for the live coding of music, so th
     end
     ```
 
-- Press **play** to start the program.
+- Drücke **play** um das Programm zu starten.
 
-- Whilst the tune is playing, comment out the last three lines by adding a `#` symbol to the start of each line like this:
+- Während die Melodie abgespielt wird, kommentierst du die letzten drei Zeilen aus, indem du am Anfang jeder Zeile ein `#` Symbol hinzufügst:
     
     ```ruby
     # loop do
-    #   play_my_synth
+    # play_my_synth
     # end
     ```
 
-- Next change some of code in the function, and press **play** again. Now you are really rocking!
+- Als nächstes ändere den Code in der Funktion und drücke **play** erneut. Jetzt rockst du wirklich!
