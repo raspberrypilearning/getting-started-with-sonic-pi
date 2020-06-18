@@ -1,25 +1,24 @@
-## Adding effects
+## إضافة التأثيرات
 
-Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no different: you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
+التوليفات الحديثة لديها القدرة على إضافة التأثيرات إلى الأصوات. لا يختلف Sonic Pi: يمكنك إضافة تأثيرات الاستوديو مثل التردد والصدى والتشويه. بالطبع عليك استخدام التعليمات البرمجية لإضافة التأثيرات!
 
-- In a new worksheet find a sample that you like, for example `sample :guit_e_fifths`
+- في ورقة عمل جديدة ، ابحث عن عينة تريدها ، على سبيل المثال ` sample: guit_e_fifths `
 
-- Wrap the sample in an effects block like this:
+- قم بإلقاء العينة في كتلة تأثيرات مثل هذا:
     
     ```ruby
-    with_fx :reverb do
-      sample :guit_e_fifths
-    end
+    مع _fx :reverb
+      عينة :guit_e_fifths
+    النهاية
     ```
 
-- You can add effects on top of effects like this:
+- يمكنك إضافة تأثيرات أعلى التأثيرات مثل هذا:
     
     ```ruby
-    with_fx :reverb do
-      with_fx :distortion do
-        sample :guit_e_fifths
-      end  
-    end
+    مع _fx :reverb
+      مع _fx :distortion do
+        عينة :guit_e_fifths
+      end
     ```
 
-- Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi under **FX**.
+- جرب مع بعض التأثيرات وأضفها إلى الموسيقى الخاصة بك. تذكر أنه يمكن العثور على قائمة كاملة من التأثيرات في قسم المساعدة من Sonic Pi تحت **FX**.
