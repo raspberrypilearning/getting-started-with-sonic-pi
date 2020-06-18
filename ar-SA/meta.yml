@@ -1,7 +1,7 @@
 ---
-title: Getting Started With Sonic Pi
+title: البدء مع Sonic Pi
 hero_image: images/banner.png
-description: Learn how to live code music on the Raspberry Pi with Sonic Pi
+description: تعلم كيفية البرمجة الحية للموسيقى على Raspberry Pi مع Sonic Pi
 original_url: https://raspberrypi.org/learning/getting-started-with-sonic-pi
 theme: red
 duration: 2
@@ -18,28 +18,28 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: What you will need
+    title: ما ستحتاج إليه
   - 
-    title: First sounds with Sonic Pi
+    title: الأصوات الأولى مع Sonic Pi
   - 
-    title: Loop a tune
+    title: تكرار اللحن
   - 
-    title: MIDI notes and music notes
+    title: نوتات MIDI والنوتات الموسيقية
   - 
-    title: Change the sounds
+    title: تغيير الأصوات
   - 
-    title: Use samples
+    title: استخدم عيّنات
   - 
-    title: Playing two tunes at the same time
+    title: تشغيل نغمتين في نفس الوقت
   - 
-    title: Live code!
+    title: بث مباشر للتعليمات البرمجية!
   - 
-    title: Adding effects
+    title: إضافة التأثيرات
   - 
-    title: Modifying Parameters
+    title: تعديل المعاملات
   - 
-    title: Using rrand
+    title: استخدام rrand
   - 
-    title: What next?
+    title: ما هي الخطوة التالية؟
