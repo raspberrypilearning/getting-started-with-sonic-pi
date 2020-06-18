@@ -1,5 +1,5 @@
-## What you will need
+## ما ستحتاج اليه
 
-### Hardware
+### الأجهزة
 
-* Headphones or a speaker
+* سماعات أو مكبرات الصوت
