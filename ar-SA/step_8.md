@@ -1,35 +1,35 @@
-## Playing two tunes at the same time
+## عزف نغمتين في نفس الوقت
 
-Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
+غالباً ما يكون للموسيقى مسار مساند متكرر، مع لحن منفصل يتم عزفه في البداية. لقد عزف حتى الآن نغمة واحدة في Sonic Pi. دعونا نحاول عزف نغمتين في نفس الوقت!
 
-- Click on a new buffer tab.
+- انقر فوق علامة تبويب جديدة للمخزن المؤقت.
 
-2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
+2. الكود الذي نستخدمه لعزف لحنين في نفس الوقت يجب أن يكون بين `in_thread do` و `end`.
 
-3. Underneath `in_thread do`, type your tune. Here I've used a sample for my backing track:
+3. تحت ` فعل in_thread ` ، اكتب لحنك. هنا استخدمت عينة لمسار الدعم الخاص بي:
     
     ```ruby
     in_thread do
-      loop do
-        sample :loop_amen
-        sleep 1.753
-      end
-    end       
+      حلقة تكرار نفذ
+        عينة :loop_amen
+        سكون 1.753
+      نهاية
+    نهاية       
     ```
     
-    This first 'thread' will act as the melody of your music. Underneath, you can type the code for your backing track or baseline.
+    سيكون هذا "الخيط" الأول بمثابة لحن الموسيقى الخاصة بك. تحته، يمكنك كتابة كوود لمسار الدعم الخاص بك أو خط الأساس.
 
-4. Type:
+4. اكتب:
     
     ```ruby
-    in_thread do
-      16.times do
-        play 75
-        sleep 1.753
-        play 74
-        sleep 0.25
-      end
-    end 
+    in_thread نفذ
+      16.مرة نفذ
+        عزف 75
+        سكون 1.753
+        عزف 74
+        سكون 0.25
+      نهاية
+    نهاية 
     ```
 
-5. Now press **play** and you should hear both threads playing at the same time.
+5. الآن اضغط **play** ويجب أن تسمع كلا اللحنين اللذين يتم تشغيلهما في نفس الوقت.
