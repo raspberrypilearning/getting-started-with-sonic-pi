@@ -1,18 +1,18 @@
-## Use samples
+## استخدم عيّنات
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+لا يمكنك فقط إنشاء موسيقى في Sonic Pi باستخدام نوتات فردية ، بل يمكنك أيضًا إنشاء موسيقى بالعينات. النماذج هي أصوات أو نغمات مسجلة مسبقًا يمكنك ارفاقها إلى الموسيقى الخاصة بك. هذه طريقة بسيطة حقا لجعل صوت الموسيقى الخاصة بك مذهلة!
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+لاستخدام عيّنة، تحتاج إلى إضافة التعليمة البرمجية `عينة :name من العينة` في تسلسل برنامج الموسيقى الخاص بك حيث تريد تشغيله.
 
-In this example, `loop_amen` is the name of the sample:
+في هذا المثال `loop_amen` هو اسم العينة:
 
 ```ruby
-2.times do
-  sample :loop_amen
-  sleep 1.753
-end
+2.مرة نفذ
+  عينة :loop_amen
+  سكون 1.753
+نهاية
 ```
 
-### Samples to try
+### عينات للمحاولة
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it.
+هناك الكثير من العينات المضمنة في Sonic Pi. للعثور على أسمائهم، انقر فوق **help** تليها **عينات ** على الجانب الأيسر من نافذة المساعدة. انقر على أي من أسماء العينة للحصول على مزيد من المعلومات حول كيفية استخدامها.
