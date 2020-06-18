@@ -1,24 +1,26 @@
-## First sounds with Sonic Pi
+## Erste Sounds mit Sonic Pi
 
 ![](images/GUI.png)
 
-This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+Dies ist die Sonic Pi-Schnittstelle. Sie hat drei Hauptfenster. Der größte ist für das Schreiben deines Codes und wir nennen ihn Programmierbereich. Es gibt auch ein Ausgabefeld, in dem Informationen zu deinem Programm angezeigt werden, während es ausgeführt wird. Wenn du auf die Schaltfläche **help** (auf Deutsch: Hilfe) oben im Fenster klickst, wird das dritte Feld unten angezeigt, in dem die Hilfedokumentation angezeigt wird. Hier findest du Informationen zu verschiedenen Codes, die du ausprobieren und verwenden kannst, sowie zu verschiedenen Synth-Sounds, Samples und vielem mehr.
 
-- Launch Sonic Pi from the desktop or applications menu.
+- Starte Sonic Pi über das Desktop- oder Anwendungsmenü.
 
-- Select **Buffer 1** and type:
+- Wähle **Puffer 1** und gebe Folgendes ein:
     
     ```ruby
     play 60
+    
+    (auf Deutsch: spiele 60)
     ```
 
-- Click on the **play** icon at the top of the screen. What happens?
+- Klicke oben auf dem Bildschirm auf das Symbol **play** (auf Deutsch: abspielen/wiedergeben). Was geschieht?
 
-- What happens if you type `pley 60` and click on the play icon?
+- Was passiert, wenn du `pley 60` eingibst und auf das Abspielsymbol klickst?
     
-    This is an example of a bug in your code. In later activities, if the error panel displays text you will know that you have a bug that you need to fix. It could be that you have misspelt a word like `play`.
+    Dies ist ein Beispiel für einen Fehler in deinem Code. Wenn in späteren Aktivitäten im Fehlerbereich ein Text angezeigt wird, weißt du, dass du einen Fehler hast, den du beheben musst. Es kann sein, dass du ein Wort wie `play`falsch geschrieben hast.
 
-- Now type:
+- Tippe nun:
     
     ```ruby
     play 60
@@ -26,16 +28,16 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
     play 69
     ```
 
-- Click on the play icon at the top of the screen. What happens?
+- Klicke auf das Wiedergabesymbol oben auf dem Bildschirm (play). Was geschieht?
 
-- The computer is playing each note in sequence (one after the other), but it is happening so fast that to us they sound like they are playing at the same time.
+- Der Computer spielt jede Note nacheinander (eine nach der anderen), aber es geschieht so schnell, dass es für uns so klingt, als würden sie gleichzeitig spielen.
     
-    We need to tell the computer to pause between each note. We can do this by typing the following after each `play`:
+    Wir müssen dem Computer mitteilen, dass er zwischen den einzelnen Noten pausieren soll. Wir können dies tun, indem du nach jedem `play` folgendes eingibst:
     
     ```ruby
     sleep 1
     ```
     
-    The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
+    Der nach dem Wort `sleep` (auf Deutsch: schlafe) eingegebene Wert steht für die Zeit in Sekunden. Die Verwendung des Wertes 1 entspricht einer Sekunde. Was würdest du für eine halbe Sekunde eingeben?
 
-- Now write a sequence of play and sleep to make a cool-sounding tune!
+- Schreibe jetzt eine Sequenz aus play- und sleep-Befehlen um eine coole Melodie zu machen!
