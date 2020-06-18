@@ -1,4 +1,4 @@
-## What next?
+## ما هي الخطوة التالية؟
 
-- Can you make your own samples and import them into Sonic Pi?
-- Can you create a full original composition and share it with friends?
+- هل يمكنك صنع العينات الخاصة بك واستيرادها من Sonic Pi؟
+- هل يمكنك إنشاء تركيبة أصلية كاملة ومشاركتها مع الأصدقاء؟
