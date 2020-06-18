@@ -1,68 +1,68 @@
-## Loop a tune
+## تكرار اللحن
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+الآن لقد أتقنت أساسيات Sonic Pi ، دعونا نبرمج نغمة!
 
-- Select **Buffer 2**.
+- حدد **مخزن التخزين المؤقت 2**.
 
-2. Type the following code:
+2. أضف التعليمة البرمجية التالية:
     
     ```ruby
-    play 60
-    sleep 0.5
-    play 62
-    sleep 0.5
-    play 64
-    sleep 0.5
-    play 60
-    sleep 0.5
+    عزف 60
+    سكون 0.5
+    عزف 62
+    سكون 0.5
+    عزف 64
+    سكون 0.5
+    عزف 60
+    سكون 0.5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is?
+3. الآن انقر على أيقونة التشغيل في الجزء العلوي من الشاشة وستقوم بتشغيل الجزء الأول من اللحن. هل يمكن أن تخبرني ما هو؟
     
-    *Answer: Frère Jacques!*
+    *الجواب: فرير جاك!*
     
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    هذا الجزء الأول يعزف مرتين. كيف يمكنك تكرار ذلك؟ يمكنك كتابة نفس القسم مرة أخرى ، أو يمكننا البدء في إدخال حلقات التكرارية إلى التعليمات البرمجية الخاصة بك.
 
-4. At the top of your code, above the first `play 60`, type:
+4. في الجزء العلوي من الكود الخاص بك، اعلاه `عزف 60`، نمط:
     
     ```ruby
-    2.times do
+    مرتين أفعل
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. وفي أسفل الكود الخاص بك، أسفل `سكون 0.5`، نمط:
     
     ```ruby
-    end
+    النهاية
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. انقر على أيقونة التشغيل في الجزء العلوي من الشاشة. ماذا حدث؟
     
-    Let's play this part in Sonic Pi.
+    دعونا نعزف هذا الجزء في Sonic Pi.
     
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    في المثال أدناه ، يمكنك رؤية أن بعض أسطر التعليمات البرمجية لها مسافة بادئة. هذا يجعل من السهل قراءة التعليمات البرمجية الخاصة بك ، والتحقق من أي أخطاء إذا لم تعمل عند الضغط على زر التشغيل. يمكنك الضغط على شريط المسافة مرتين لوضع مسافة بادئة لسطر التعليمات البرمجية.
     
     ```ruby
-    2.times do
-      play 60
-      sleep 0.5
-      play 62
-      sleep 0.5
-      play 64
-      sleep 0.5
-      play 60
-      sleep 0.5
-    end
+    2.مرة أفعل
+      عزف 60
+      سكون 0.5
+      عزف 62
+      سكون 0.
+      عزف 64
+      سكون 0.5
+      عزف 60
+      سكون 0.5
+    نهاية
     ```
 
-### Loop forever?
+### حلقة التكرار الى الأبد؟
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever?
+من المؤكد أن تكرار النوتات لعدد معين من المرات مفيد ، ولكن ماذا لو كنت تريد تكرار لحنك إلى الأبد؟
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+بدلاً من استخدام `2.مرات أفعل` و `end` يمكنك استخدام `حلقة تكرار أفعل` و `end`، مثل هذا:
 
 ```ruby
-loop do
-  play 60
-  sleep 0.5
-end
+حلقة تكرار أفعل
+  عزف 60
+  سكون 0.5
+نهاية
 ```
