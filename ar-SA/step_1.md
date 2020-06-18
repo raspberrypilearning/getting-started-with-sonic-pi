@@ -1,20 +1,20 @@
-## What you will make
+## ما الذي ستصنعه
 
-Sonic Pi is an open-source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by [Dr Sam Aaron](http://sam.aaron.name/) at the University of Cambridge. He uses the software to perform live with his band. This resource will help get you started with the basics of Sonic Pi so that you can code your own music.
+Sonic Pi هو بيئة برمجة مفتوحة المصدر، مصممة لإنشاء أصوات جديدة مع التعليمات البرمجية في بيئة برمجية كبث مباشر؛ وقد طورها الدكتور سام آرون ، في جامعة كامبريدج. يستخدم البرنامج لأداء بث مباشر مع فرقته. سيساعدك هذا المصدر على البدء بأساسيات Sonic Pi حتى تتمكن من برمجة الموسيقى الخاصة بك.</p> 
 
-## What you will learn
+## ما الذي ستتعلمه
 
-By following this Sonic Pi tutorial on your Raspberry Pi you will learn:
+باتباع هذا البرنامج التعليمي Sonic Pi على Raspberry Pi الخاص بك سوف تتعلم:
 
-- To make sounds by typing text into Sonic Pi
-- To loop a tune so that it repeats
-- What MIDI note numbers are and how to convert them to music notes
-- How to change the sounds by using different synths and samples
-- How to play two tunes at the same time using threads
-- To perform with Sonic Pi by live coding
-- How to add effects and use parameters to change the way notes sound
-- How to use randomisation within a composition. 
+- لصنع الأصوات عن طريق كتابة النص في Sonic Pi
+- لتكرار اللحن بحيث يتكرر لعدد من المرات
+- ما هي أرقام نوتة MIDI وكيفية تحويلها إلى نوتة موسيقية
+- كيفية تغيير الأصوات باستخدام التركيبات والعينات المختلفة
+- كيفية عزف نوعين من اللحان في نفس الوقت باستخدام اسلاك منتظمة
+- للعزف مع Sonic Pi عن طريق البرمجة الحية (بث مباشر)
+- كيفية إضافة التأثيرات واستخدام المعاملات لتغيير طريقة رنين النوتات الموسيقية
+- كيفية استخدام التوزيع العشوائي ضمن التركيب. 
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+يغطي هذا المورد عناصر من السلاسل التالية من المنهج الرقمي لـ [Raspberry Pi ](https://www.raspberrypi.org/curriculum/):
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
+- [استخدم أدوات البرمجة الأساسية لإنشاء برامج بسيطة](https://www.raspberrypi.org/curriculum/programming/creator)
