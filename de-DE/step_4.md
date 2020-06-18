@@ -1,45 +1,47 @@
-## Loop a tune
+## Wiederhole eine Melodie
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+Jetzt beherrscht du die Grundlagen von Sonic Pi. Lass uns eine Melodie programmieren!
 
-- Select **Buffer 2**.
+- Wähle **Buffer 2**.
 
-2. Type the following code:
+2. Geben den folgenden Code ein:
     
     ```ruby
     play 60
-    sleep 0.5
+    sleep 0,5
     play 62
-    sleep 0.5
+    sleep 0,5
     play 64
-    sleep 0.5
+    sleep 0,5
     play 60
-    sleep 0.5
+    sleep 0,5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is?
+3. Klicke nun auf das Wiedergabesymbol oben auf dem Bildschirm, um den ersten Teil einer Melodie abzuspielen. Kannst du sagen, was es ist?
     
-    *Answer: Frère Jacques!*
+    *Antwort: Bruder Jakob!*
     
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    Dieser erste Abschnitt wird zweimal gespielt. Wie kannst du es wiederholen? Du könntest den gleichen Abschnitt erneut eingeben, oder wir könnten damit beginnen, Schleifen (Loops) in deinen Code einzuführen.
 
-4. At the top of your code, above the first `play 60`, type:
+4. Gebe oben in deinen Code über den ersten `play 60` folgendes ein:
     
     ```ruby
-    2.times do
+    2.times do 
+    (auf Deutsch: zwei Mal tun)
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. Und gebe unten in deinem Code unter `sleep 0.5` folgendes ein:
     
     ```ruby
-    end
+    end 
+    (auf Deutsch: Ende)
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. Klicke auf das Wiedergabesymbol oben auf dem Bildschirm. Was geschieht?
     
-    Let's play this part in Sonic Pi.
+    Lass uns diesen Teil in Sonic Pi spielen.
     
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    Im folgenden Beispiel siehst du, dass einige Codezeilen eingerückt sind. Dies macht es einfacher, deinen Code zu lesen und nach Fehlern zu suchen, wenn er beim Drücken der Wiedergabetaste nicht funktioniert. Du kannst die Leertaste zweimal drücken, um eine Codezeile einzurücken.
     
     ```ruby
     2.times do
@@ -54,11 +56,11 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     end
     ```
 
-### Loop forever?
+### Ewige Schleife?
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever?
+Das Durchlaufen von Noten für eine festgelegte Anzahl von Malen ist sicherlich nützlich, aber was ist, wenn du deine Melodie für immer durchspielen möchtest?
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+Anstelle von `2.times do` und `end` kannst du `loop do` und `end`, wie folgt benutzen:
 
 ```ruby
 loop do
