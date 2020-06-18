@@ -1,0 +1,32 @@
+---
+title: Erste Schritte mit Sonic Pi
+hero_image: images/banner.png
+description: Erfahre, wie Du mit Sonic Pi Musik auf dem Raspberry Pi live kodieren kannst
+original_url: https://raspberrypi.org/learning/getting-started-with-sonic-pi
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: music
+technologies: sonic-pi
+site_areas: projects
+hardware: ''
+software: sonic-pi
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Einleitung
+  - title: Was du brauchen wirst
+  - title: Erste Sounds mit Sonic Pi
+  - title: Wiederhole eine Melodie
+  - title: MIDI-Noten und Musiknoten
+  - title: Ändere die Sounds
+  - title: Verwende Samples (Beispiele)
+  - title: Zwei Musikstücke gleichzeitig spielen
+  - title: Live-Code!
+  - title: Effekte hinzufügen
+  - title: Parameter ändern
+  - title: Rrand verwenden
+  - title: Was kommt als Nächstes?
