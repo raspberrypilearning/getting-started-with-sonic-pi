@@ -1,20 +1,20 @@
-## What you will make
+## Was du machen wirst
 
-Sonic Pi is an open-source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by [Dr Sam Aaron](http://sam.aaron.name/) at the University of Cambridge. He uses the software to perform live with his band. This resource will help get you started with the basics of Sonic Pi so that you can code your own music.
+Sonic Pi ist eine Open-Source-Programmierumgebung, die zum Erstellen neuer Sounds mit Code in einer Live-Codierungsumgebung entwickelt wurde. Sie wurde von [Dr. Sam Aaron](http://sam.aaron.name/) an der University of Cambridge entwickelt. Er nutzt die Software, um live mit seiner Band aufzutreten. Diese Ressource hilft dir beim Einstieg in die Grundlagen von Sonic Pi, damit du deine eigene Musik schreiben kannst.
 
-## What you will learn
+## Was du lernen wirst
 
-By following this Sonic Pi tutorial on your Raspberry Pi you will learn:
+Wenn du diesem Sonic Pi-Lernprogramm auf deinem Raspberry Pi folgst, lernst du:
 
-- To make sounds by typing text into Sonic Pi
-- To loop a tune so that it repeats
-- What MIDI note numbers are and how to convert them to music notes
-- How to change the sounds by using different synths and samples
-- How to play two tunes at the same time using threads
-- To perform with Sonic Pi by live coding
-- How to add effects and use parameters to change the way notes sound
-- How to use randomisation within a composition. 
+- So erzeugst du Töne, indem du Text in Sonic Pi eingibst
+- Eine Melodie in einer Schleife spielen, so dass sie wiederholt wird
+- Was sind MIDI-Notennummern und wie werden diese in Musiknoten umgewandelt
+- So änderst du die Sounds mit verschiedenen Synths und Samples
+- Wie man zwei Stücke gleichzeitig mit Threads spielt
+- Um mit Sonic Pi mittels Live-Kodierung zu spielen
+- So fügst du Effekte hinzu und verwendest Parameter, um den Klang der Noten zu ändern
+- Wie verwende ich Randomisierung innerhalb einer Komposition? 
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+Diese Ressource deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
+- [Verwendung elementarer Programmiersprachelemente zur Erstellung einfacher Programme](https://www.raspberrypi.org/curriculum/programming/creator)
