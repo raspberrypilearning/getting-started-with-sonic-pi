@@ -7,7 +7,7 @@
 2. أضف التعليمة البرمجية التالية:
     
     ```ruby
-    عplay 60
+    play 60
     sleep 0.5
     play 62
     sleep 0.5
