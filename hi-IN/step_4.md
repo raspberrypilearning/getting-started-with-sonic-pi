@@ -1,10 +1,10 @@
-## Loop a tune
+## एक धुन को लूप करे
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+अब आपको Sonic Pi के मूल में महारत हासिल हो गई है, चलिए एक धुन को कोड करें!
 
-- Select **Buffer 2**.
+- **Buffer 2** का चयन करें.
 
-2. Type the following code:
+2. निम्नलिखित कोड को टाइप करें:
     
     ```ruby
     play 60
@@ -17,29 +17,29 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     sleep 0.5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is?
+3. अब स्क्रीन के शीर्ष पर play आइकन पर क्लिक करें और यह एक धुन के पहले भाग को बजाएगा। क्या आप बता सकते हैं कि यह क्या है?
     
-    *Answer: Frère Jacques!*
+    *उत्तर: Frère Jacques!*
     
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    पहला खंड दो बार चलता है। आप इसे कैसे दोहरा सकते हैं? आप फिर से उसी सेक्शन को टाइप कर सकते हैं, या हम आपके कोड में लूप्स लागाना शुरू कर सकते हैं।
 
-4. At the top of your code, above the first `play 60`, type:
+4. अपने कोड के शीर्ष पर, पहले `play 60` के ऊपर, टाइप करें:
     
     ```ruby
     2.times do
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. और आपके कोड के नीचे, `sleep 0.5` के नीचे, टाइप करें:
     
     ```ruby
     end
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. स्क्रीन के शीर्ष पर स्थित play आइकन पर क्लिक करें। क्या होता है?
     
-    Let's play this part in Sonic Pi.
+    आइए इस भाग को Sonic Pi में चलाते हैं।
     
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    नीचे दिए गए उदाहरण में, आप देख सकते हैं कि कोड की कुछ लाइनें इंडेंटेड हैं। इससे आपके कोड को पढ़ना आसान हो जाता है, और बग​ के लिए जाँच करता है अगर यह काम नहीं करता है जब​ आप बटन दबाते हैं तो। कोड की एक पंक्ति को इंडेंट करने के लिए आप दो बार स्पेस बार दबा सकते हैं।
     
     ```ruby
     2.times do
@@ -54,11 +54,11 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     end
     ```
 
-### Loop forever?
+### हमेशा के लिए लूप?
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever?
+एक निर्धारित संख्या के लिए नोट्स को लूप करना निश्चित रूप से उपयोगी है, लेकिन क्या होगा यदि आप अपनी धुन को हमेशा के लिए लूप करना चाहते हैं?
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+`2.times do` और `end` के बजाय आप `loop do` और `end` का उपयोग कर सकते हैं, इस तरह:
 
 ```ruby
 loop do
