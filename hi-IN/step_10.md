@@ -1,10 +1,10 @@
-## Adding effects
+## प्रभाव जोड़ना
 
-Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no different: you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
+आधुनिक सिंथेसाइज़र में ध्वनियों के प्रभावों को जोड़ने की क्षमता होती है। Sonic Pi अलग नहीं है: आप स्टूडियो प्रभावों को जोड़ने में सक्षम हैं जैसे कि reverb (गूंज), echo (प्रतिध्वनि) और distortion (विरूपण)। बेशक आपको प्रभाव जोड़ने के लिए कोड का उपयोग करना होगा!
 
-- In a new worksheet find a sample that you like, for example `sample :guit_e_fifths`
+- एक नई वर्कशीट में एक नमूना ढूंढें जो आपको पसंद है, उदाहरण के लिए `sample :guit_e_fifths`
 
-- Wrap the sample in an effects block like this:
+- इस तरह एक प्रभाव खंड में नमूना मिलाएँ:
     
     ```ruby
     with_fx :reverb do
@@ -12,7 +12,7 @@ Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no di
     end
     ```
 
-- You can add effects on top of effects like this:
+- आप इस तरह प्रभाव के शीर्ष पर प्रभाव जोड़ सकते हैं:
     
     ```ruby
     with_fx :reverb do
@@ -22,4 +22,4 @@ Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no di
     end
     ```
 
-- Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi under **FX**.
+- कुछ प्रभावों के साथ खेलें और उन्हें अपने संगीत में जोड़ें। याद रखें कि Sonic Pi के मदद अनुभाग में **FX** के तहत प्रभावों की एक पूरी सूची पाई जा सकती है ।
