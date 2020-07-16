@@ -1,10 +1,10 @@
-## Change the sounds
+## धुन बदलें
 
-It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
+यह आपकी धुन को और अधिक रोचक बनाने का समय है! हम सिंथेसाइज़र ध्वनियों को बदलकर ऐसा कर सकते हैं जो इसका उपयोग कर रहा है। डिफ़ॉल्ट Sonic Pi सिंथ को `beep` कहा जाता है।
 
-To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
+एक अलग सिंथ का उपयोग करने के लिए, आपको कोड `use_synth :name of synth` का उपयोग करना होगा कोड के अनुक्रम के ऊपर जिसमे आप इसका उपयोग करना चाहते हैं।
 
-In this example, `fm` is the name of the synth:
+इस उदाहरण में, `fm` सिंथ का नाम है:
 
 ```ruby
 use_synth :fm
@@ -16,6 +16,6 @@ use_synth :fm
 end
 ```
 
-### Synths to try
+### प्रयास करने के लिए सिंथ
 
-There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+Sonic Pi के साथ बहुत सारे अच्छे ध्वनि वाले सिंथ शामिल हैं। उनके नाम खोजने के लिए, **help** आइकन पर क्लिक करें स्क्रीन के शीर्ष पर ताकि मदद दस्तावेज़ विंडो दिखाई दे। फिर **Synths** का चयन करें मदद विंडो के बाएँ हाथ की ओर टैब से। उपयोग करने के तरीके के बारे में अधिक जानकारी प्राप्त करने के लिए किसी भी सिंथ नाम पर क्लिक करें।
