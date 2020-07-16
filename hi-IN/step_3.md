@@ -1,24 +1,24 @@
-## First sounds with Sonic Pi
+## पहले ध्वनि Sonic Pi के साथ
 
 ![](images/GUI.png)
 
-This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+यह Sonic Pi इंटरफ़ेस है; इसकी तीन मुख्य विंडोज़ हैं। आपका कोड लिखने के लिए सबसे बड़ा है, और हम इसे प्रोग्रामिंग पैनल कहते हैं। एक आउटपुट पैनल भी है जो आपके प्रोग्राम के बारे में जानकारी दिखाता है जैसे-जैसे यह चलता है। जब आप **help** बटन पर क्लिक करते हैं जो विंडो के शीर्ष पर स्थित है, तीसरे पैनल में नीचे की ओर मदद के दस्तावेज प्रदर्शित होते हैं। इसमें अलग-अलग कोड के बारे में जानकारी होती है, जिन्हें आप आजमा सकते हैं और उपयोग कर सकते हैं, साथ ही अलग-अलग सिंथ ध्वनि, नमूने और बहुत कुछ कर सकते हैं।
 
-- Launch Sonic Pi from the desktop or applications menu.
+- डेस्कटॉप या एप्लिकेशन मेनू से Sonic Pi लॉन्च करें।
 
-- Select **Buffer 1** and type:
+- **बफर 1** का चयन करें और टाइप करें:
     
     ```ruby
     play 60
     ```
 
-- Click on the **play** icon at the top of the screen. What happens?
+- **play** आइकन पर क्लिक करें जो स्क्रीन के शीर्ष पर है। क्या होता है?
 
-- What happens if you type `pley 60` and click on the play icon?
+- यदि आप `pley 60` टाइप करें और play आइकन पर क्लिक करें तो क्या होता है?
     
-    This is an example of a bug in your code. In later activities, if the error panel displays text you will know that you have a bug that you need to fix. It could be that you have misspelt a word like `play`.
+    यह आपके कोड में बग का एक उदाहरण है। बाद की गतिविधियों में, यदि error पैनल टेक्स्ट प्रदर्शित करता है तो आपको पता चल जाएगा कि यह​ एक बग है जिसे आपको ठीक करने की आवश्यकता है। यह हो सकता है कि आपने `play` जैसे किसी शब्द को गलत किया हो।
 
-- Now type:
+- अब टाइप करें:
     
     ```ruby
     play 60
@@ -26,16 +26,16 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
     play 69
     ```
 
-- Click on the play icon at the top of the screen. What happens?
+- स्क्रीन के शीर्ष पर स्थित play आइकन पर क्लिक करें। क्या होता है?
 
-- The computer is playing each note in sequence (one after the other), but it is happening so fast that to us they sound like they are playing at the same time.
+- कंप्यूटर प्रत्येक नोट को क्रम में (एक के बाद एक) बजा रहा है, लेकिन यह इतनी तेजी से हो रहा है कि हमारे लिए वे ध्वनि करते हैं जैसे वे एक ही समय में चल​ रहे हों।
     
-    We need to tell the computer to pause between each note. We can do this by typing the following after each `play`:
+    हमें कंप्यूटर को बताने की आवश्यकता है कि वो प्रत्येक नोट के बीच मे ठहराव ले। हम प्रत्येक `play` के बाद निम्नलिखित टाइप करके ऐसा कर सकते हैं:
     
     ```ruby
     sleep 1
     ```
     
-    The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
+    `sleep` शब्द के बाद दर्ज किया गया मान सेकंड में समय का प्रतिनिधित्व करता है। मान 1 का उपयोग करना एक सेकंड का प्रतिनिधित्व करता है। आप आधे सेकंड के लिए क्या टाइप करेंगे?
 
-- Now write a sequence of play and sleep to make a cool-sounding tune!
+- अब play और sleep का एक क्रम लिखें सुरीली धुन बनाने के लिए!
