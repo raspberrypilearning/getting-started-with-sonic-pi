@@ -1,8 +1,8 @@
-## Using rrand
+## rrand का उपयोग करना
 
-Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
+Sonic Pi में कई फ़ंक्शन शामिल हैं जो आपके संगीत में अधिक दिलचस्प तत्व जोड़ सकते हैं। वास्तव में `rrand` एक मजेदार फंक्शन है, जो दो निर्दिष्ट संख्याओं के बीच एक मान लौटाएगा। एक दिलचस्प प्रभाव के लिए, `rrand` का उपयोग करें कटऑफ में उछाल लाने के लिए।
 
-- In a blank worksheet type:
+- एक रिक्त वर्कशीट मे टाइप करें:
     
     ```ruby
     loop do
@@ -11,7 +11,7 @@ Sonic Pi includes a number of functions that can add more interesting elements t
     end
     ```
 
-- Instead of passing a number like `80` to the cutoff value, try `rrand(40, 120)` like this:
+- `80` जैसी संख्या कटऑफ मान के लिए पास करने के बजाय `rrand(40, 120)` का उपयोग करें इस तरह:
     
     ```ruby
     loop do
@@ -20,4 +20,4 @@ Sonic Pi includes a number of functions that can add more interesting elements t
     end
     ```
 
-- Then you can start to experiment using `rrand` with other parameters. For example, add `pan: rrand(-1, 1)` to the play chord line and then press **play**.
+- फिर आप `rrand` का परीक्षण करना शुरू कर सकते हैं अन्य मापदंडों के साथ। उदाहरण के लिए, `pan: rrand(-1, 1)` जोड़ें कॉर्ड लाइन बजाने के लिए और फिर **play** दबाएँ।
