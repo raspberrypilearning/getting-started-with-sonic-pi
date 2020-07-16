@@ -8,13 +8,13 @@ Jetzt beherrscht du die Grundlagen von Sonic Pi. Lass uns eine Melodie programmi
     
     ```ruby
     play 60
-    sleep 0,5
+    sleep 0.5
     play 62
-    sleep 0,5
+    sleep 0.5
     play 64
-    sleep 0,5
+    sleep 0.5
     play 60
-    sleep 0,5
+    sleep 0.5
     ```
 
 3. Klicke nun auf das Wiedergabesymbol oben auf dem Bildschirm, um den ersten Teil einer Melodie abzuspielen. Kannst du sagen, was es ist?
