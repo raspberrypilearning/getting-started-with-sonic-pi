@@ -1,20 +1,20 @@
-## What you will make
+## आप क्या बनाएँगे
 
-Sonic Pi is an open-source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by [Dr Sam Aaron](http://sam.aaron.name/) at the University of Cambridge. He uses the software to perform live with his band. This resource will help get you started with the basics of Sonic Pi so that you can code your own music.
+Sonic Pi एक ओपन-सोर्स प्रोग्रामिंग वातावरण है, जिसे लाइव कोडिंग वातावरण में कोड के साथ नई ध्वनियां बनाने के लिए डिज़ाइन किया गया है; इसे [Dr Sam Aaron](http://sam.aaron.name/) द्वारा विकसित किया गया था कैम्ब्रिज विश्वविद्यालय में। वह अपने बैंड के साथ लाइव प्रदर्शन करने के लिए सॉफ्टवेयर का उपयोग करते हैं। यह संसाधन आपको Sonic Pi के मूल के साथ आरंभ करने में मदद करेगा ताकि आप अपने खुद के संगीत को कोड कर सकें।
 
-## What you will learn
+## आप क्या सीखेंगे
 
-By following this Sonic Pi tutorial on your Raspberry Pi you will learn:
+अपने Raspberry Pi पर इस Sonic Pi ट्यूटोरियल का पालन करके आप सीखेंगे:
 
-- To make sounds by typing text into Sonic Pi
-- To loop a tune so that it repeats
-- What MIDI note numbers are and how to convert them to music notes
-- How to change the sounds by using different synths and samples
-- How to play two tunes at the same time using threads
-- To perform with Sonic Pi by live coding
-- How to add effects and use parameters to change the way notes sound
-- How to use randomisation within a composition. 
+- Sonic Pi में टेक्स्ट टाइप करके ध्वनियाँ बनाना
+- एक धुन को लूप करना ताकि वह दोहराए
+- MIDI नोट संख्या क्या हैं और उन्हें संगीत नोट में कैसे परिवर्तित किया जाए
+- विभिन्न सिंथ और नमूनों का उपयोग करके ध्वनियों को कैसे बदला जाए
+- थ्रेड्स का उपयोग करके एक ही समय में दो धुन कैसे चलाएँ
+- लाइव कोडिंग द्वारा Sonic Pi के साथ प्रदर्शन करना
+- प्रभाव कैसे जोड़ें और मापदंडों का उपयोग करके नोट्स के ध्वनि करने के तरिके को कैसे बदलें
+- किसी रचना के भीतर यादृच्छिकता का उपयोग कैसे करें। 
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+इस संसाधन में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](https://www.raspberrypi.org/curriculum/) के निम्नलिखित तत्वों के पहलू शामिल हैं:
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
+- [सरल प्रोग्राम बनाने के लिए आधारभूत संरचनाओं का उपयोग करें](https://www.raspberrypi.org/curriculum/programming/creator)
