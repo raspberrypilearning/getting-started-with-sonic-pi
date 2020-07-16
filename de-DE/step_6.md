@@ -7,12 +7,12 @@ Um einen anderen Synthesizer (kurz synth) zu verwenden, musst du den Code `use_s
 In diesem Beispiel ist `fm` der Name des Synth:
 
 ```ruby
-use_synth: fm
+use_synth :fm
 2.times do
   play 60
-  sleep 0,5
+  sleep 0.5
   play 67
-  sleep 0,5
+  sleep 0.5
 end
 ```
 
