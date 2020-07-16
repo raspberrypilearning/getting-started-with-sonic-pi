@@ -1,12 +1,12 @@
-## Playing two tunes at the same time
+## एक ही समय में दो धुन बजाना
 
-Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
+संगीत में अक्सर एक दोहराव वाला ट्रैक होता है, जिसमें शीर्ष पर एक अलग राग बजाया जाता है। अब तक Sonic Pi में आपने एक धुन बजाई है। आइए एक ही समय में दो धुनों को बजाने की कोशिश करें!
 
-- Click on a new buffer tab.
+- एक न​ए बफर टैब पर क्लिक करें।
 
-2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
+2. जिस कोड को हम एक ही समय में दो धुनों को बजाने के लिए उपयोग करते हैं, उसे `in_thread do` और `end` के बीच होना चाहिए।
 
-3. Underneath `in_thread do`, type your tune. Here I've used a sample for my backing track:
+3. `in_thread do` के नीचे, अपनी धुन टाइप करें। यहाँ मैंने अपने बैकिंग ट्रैक के लिए एक नमूने का उपयोग किया है:
     
     ```ruby
     in_thread do
@@ -17,9 +17,9 @@ Music often has a repeating backing track, with a separate melody played over th
     end       
     ```
     
-    This first 'thread' will act as the melody of your music. Underneath, you can type the code for your backing track or baseline.
+    यह पहला 'thread' आपके संगीत के माधुर्य का काम करेगा। नीचे, आप अपने बैकिंग ट्रैक या बेसलाइन के लिए कोड टाइप कर सकते हैं।
 
-4. Type:
+4. टाइप करें:
     
     ```ruby
     in_thread do
@@ -32,4 +32,4 @@ Music often has a repeating backing track, with a separate melody played over th
     end 
     ```
 
-5. Now press **play** and you should hear both threads playing at the same time.
+5. अब **play** दबाएँ और आपको एक ही समय में दोनों थ्रेड्स सुनाई देना चाहिए।
