@@ -15,7 +15,7 @@ Sonic Pi enthält eine Reihe von Funktionen, mit denen Du deiner Musik weitere i
     
     ```ruby
     loop do
-      play chord (: a3, :minor).choose, attack: 0, release: 0.3, cutoff: rand (40, 120)
+      play chord (:a3, :minor).choose, attack: 0, release: 0.3, cutoff: rrand (40, 120)
       sleep 0.2
     end
     ```
