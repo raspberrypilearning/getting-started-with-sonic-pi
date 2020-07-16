@@ -1,10 +1,10 @@
-## Use samples
+## नमूनों का उपयोग करें
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+न केवल आप एकल नोटों का उपयोग करके Sonic Pi में संगीत बना सकते हैं, बल्कि आप नमूनों के साथ संगीत भी बना सकते हैं। नमूने पहले से रिकॉर्ड की गई आवाज़ या धुन हैं जिन्हें आप अपने संगीत में ला सकते हैं। यह आपके संगीत ध्वनि को अद्भुत बनाने का एक बहुत ही सरल तरीका है!
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+नमूने का उपयोग करने के लिए, आपको कोड `sample :name of sample` जोड़ना होगा अपने संगीत कार्यक्रम के अनुक्रम में जहां आप इसे बजाना चाहते हैं।
 
-In this example, `loop_amen` is the name of the sample:
+इस उदाहरण में, `loop_amen` नमूने का नाम है:
 
 ```ruby
 2.times do
@@ -13,6 +13,6 @@ In this example, `loop_amen` is the name of the sample:
 end
 ```
 
-### Samples to try
+### प्रयास करने के लिए नमूने
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it.
+Sonic Pi के साथ बहुत सारे नमूने शामिल हैं। उनके नाम खोजने के लिए, **help** पर क्लिक करें इसके बाद **samples** पर क्लिक करें जो मदद विंडो के बाईं ओर है। उपयोग करने के तरीके के बारे में अधिक जानकारी प्राप्त करने के लिए किसी भी नमूने के नाम पर क्लिक करें।
