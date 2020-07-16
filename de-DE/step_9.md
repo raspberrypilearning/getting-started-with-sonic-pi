@@ -22,7 +22,7 @@ Sonic Pi wurde als Plattform für die Live-Codierung von Musik entwickelt, sodas
     
     ```ruby
     # loop do
-    # play_my_synth
+    #    play_my_synth
     # end
     ```
 
