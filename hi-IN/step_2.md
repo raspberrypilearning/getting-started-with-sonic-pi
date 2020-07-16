@@ -1,5 +1,5 @@
-## What you will need
+## आपको किन चीज़ों की आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-* Headphones or a speaker
+* हेडफ़ोन या स्पीकर
