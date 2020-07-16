@@ -1,20 +1,20 @@
-## Modifying Parameters
+## पैरामीटर्स को संशोधित करें
 
-On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+अवसर पर, आप ध्वनि को लंबे समय तक या अलग दर पर बजाना पसंद कर सकते हैं। यह आपके द्वारा उपयोग किए जा रहे कोड के पैरामीटर्स को संशोधित करके आसानी से प्राप्त किया जा सकता है।
 
-Take `play 60`, for example.
+`play 60` लें, उदाहरण के लिए।
 
-- Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
-- In a new worksheet type:
+- **help** पर क्लिक करें मदद दस्तावेजों को खोलने के लिए, फिर **lang** चुनें बाईं ओर, और नीचे स्क्रॉल करें **play** तक​। आपको इसके उपयोग के कुछ उदाहरण दिखाई देंगे। अब तक आपने `play` का इस्तेमाल किया है किसी भी पैरामीटर के बिना; चलिए अब कुछ का उपयोग करें।
+- एक नए वर्कशीट में टाइप करें:
     
     ```ruby
     play 60, attack: 1, release: 3
     ```
 
-- Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
+- **play** बटन दबाएँ सुनने के लिए कि एक नोट कैसा लगता है। Attack (अटैक) और release (रिलीज़) समय के साथ एक नोट के आयाम को नियंत्रित करता है।
 
-- Now change the values for attack and release to see how those parameters affect the note.
+- अब Attack (अटैक) और release (रिलीज़) के लिए मूल्यों में परिवर्तन कर​ देखें कि पैरामीटर्स कैसे नोट को प्रभावित करते है।
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`.
+बहुत सारे पैरामीटर्स हैं जो नमूने या सिंथ के ध्वनि करने के तरीके को भी बदल सकते हैं। `cutoff:`, `pan:`, `rate:` या `amp:` के लिए मान बदलने का प्रयास करें।
 
-For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
+प्रत्येक नमूनो के पैरामीटर्स की पूरी सूची के लिए, **help** आइकन पर क्लिक करें, इसके बाद **samples** पर क्लिक करें। नमूने का चयन करें और उस नमूने के साथ उपयोग किए जा सकने वाले प्रत्येक प्रकार के पैरामीटर का विवरण देखने के लिए नीचे स्क्रॉल करें। वैसा ही सिंथ के लिए लागू होता है!
