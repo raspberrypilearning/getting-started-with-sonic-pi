@@ -1,4 +1,4 @@
-## Usando rrand
+## Utiliza rrand
 
 Sonic Pi incluye una serie de funciones que pueden añadir elementos más interesantes a tu música. Una función realmente divertida es `rrand`, que devolverá un valor entre dos números especificados. Para un efecto genial, usa `rrand` para hacer el rebote de corte.
 

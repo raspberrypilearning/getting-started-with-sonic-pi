@@ -32,4 +32,4 @@ La música a menudo tiene una pista de apoyo repetida, con una melodía separada
     end 
     ```
 
-5. Ahora presiona ** reproducir ** y deberías escuchar los dos hilos reproduciéndose al mismo tiempo.
+5. Ahora presiona **reproducir** y deberías escuchar los dos hilos reproduciéndose al mismo tiempo.

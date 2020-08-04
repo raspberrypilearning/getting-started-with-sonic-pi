@@ -1,4 +1,4 @@
-## Hacer una melodía
+## Buclear una melodía
 
 Ahora que haz dominado los conceptos básicos de Sonic Pi, ¡codifiquemos una melodía!
 
