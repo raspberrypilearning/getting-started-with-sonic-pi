@@ -1,10 +1,10 @@
-## Change the sounds
+## Changer les sons
 
-It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
+Il est temps de rendre ta musique plus intéressante ! Nous pouvons le faire en modifiant les sons du synthétiseur qu'il utilise. Le synthé Sonic Pi par défaut est appelé `beep`.
 
-To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
+Pour utiliser un synthé différent, tu dois ajouter le code `use_synth :name of synth` au-dessus de la séquence de code dans laquelle tu veux l'utiliser.
 
-In this example, `fm` is the name of the synth:
+Dans cet exemple, `fm` est le nom du synthé :
 
 ```ruby
 use_synth :fm
@@ -16,6 +16,6 @@ use_synth :fm
 end
 ```
 
-### Synths to try
+### Synthés à essayer
 
-There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+Il y a beaucoup de synthés cool inclus avec Sonic Pi. Pour trouver leurs noms, clique sur l'icône **Help** en haut de l'écran pour que la fenêtre de documents d'aide apparaisse. Puis sélectionne **synthétiseur** dans les onglets le long du côté gauche de la fenêtre d'aide. Clique sur l'un des noms de synthé pour obtenir plus d'informations sur la façon de l'utiliser.
