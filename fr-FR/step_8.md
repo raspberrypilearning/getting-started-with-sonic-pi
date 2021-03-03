@@ -1,12 +1,12 @@
-## Playing two tunes at the same time
+## Jouer deux musiques en même temps
 
-Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
+La musique a souvent une piste d'accompagnement répétitive, avec une mélodie distincte jouée sur le dessus. Pour le moment, Sonic Pi a joué une seule musique. Essayons de jouer deux morceaux en même temps !
 
-- Click on a new buffer tab.
+- Clique sur un nouvel onglet tampon.
 
-2. The code we use to play two tunes at the same time needs to be between `in_thread do` and `end`.
+2. Le code que nous utilisons pour jouer deux musiques en même temps doit être entre `in_thread do` et `end`.
 
-3. Underneath `in_thread do`, type your tune. Here I've used a sample for my backing track:
+3. En dessous de `in_thread do`, tape ta musique. Ici, j'ai utilisé un échantillon pour ma piste d'accompagnement :
     
     ```ruby
     in_thread do
@@ -17,9 +17,9 @@ Music often has a repeating backing track, with a separate melody played over th
     end       
     ```
     
-    This first 'thread' will act as the melody of your music. Underneath, you can type the code for your backing track or baseline.
+    Ce premier « thread » sera la mélodie de ta musique. En dessous, tu peux taper le code de ta piste d'accompagnement ou de ta ligne de base.
 
-4. Type:
+4. Tape :
     
     ```ruby
     in_thread do
@@ -32,4 +32,4 @@ Music often has a repeating backing track, with a separate melody played over th
     end 
     ```
 
-5. Now press **play** and you should hear both threads playing at the same time.
+5. Maintenant appuie sur **play** et tu devrais entendre les deux threads jouer en même temps.
