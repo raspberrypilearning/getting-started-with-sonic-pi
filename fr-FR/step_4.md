@@ -1,10 +1,10 @@
-## Loop a tune
+## Boucler une musique
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+Maintenant que tu as maîtrisé les bases de Sonic Pi, allons coder une musique !
 
-- Select **Buffer 2**.
+- Sélectionne **Tampon 2**.
 
-2. Type the following code:
+2. Tape le code suivant :
     
     ```ruby
     play 60
@@ -17,29 +17,29 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     sleep 0.5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is?
+3. Maintenant, clique sur l'icône Run en haut de l'écran et il jouera la première partie de la musique. Peux-tu dire ce que c'est ?
     
-    *Answer: Frère Jacques!*
+    *Réponse : Frère Jacques !*
     
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    Cette première section joue deux fois. Comment pourrais-tu la répéter ? Tu peux taper à nouveau la même section, ou nous pourrions commencer à introduire des boucles dans ton code.
 
-4. At the top of your code, above the first `play 60`, type:
+4. En haut de ton code, au-dessus du premier `play 60`, tape :
     
     ```ruby
     2.times do
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. Et en bas de ton code, ci-dessous `sleep 0.5`, tape :
     
     ```ruby
     end
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. Clique sur l'icône Run en haut de l'écran. Que se passe-t-il ?
     
-    Let's play this part in Sonic Pi.
+    Jouons cette partie dans Sonic Pi.
     
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    Dans l'exemple ci-dessous, tu peux voir que certaines lignes de code sont indentées. Il est ainsi plus facile de lire ton code et de vérifier s'il ne fonctionne pas lorsque tu appuies sur le bouton Run. Tu peux appuyer deux fois sur la barre d'espace pour indenter une ligne de code.
     
     ```ruby
     2.times do
@@ -54,11 +54,11 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     end
     ```
 
-### Loop forever?
+### Boucler indéfiniment ?
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever?
+Boucler des notes pour un certain nombre de fois est certainement utile, mais que faire si tu veux boucler ta musique indéfiniment ?
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+Au lieu d'utiliser `2.times do` et `end` tu peux utiliser `loop do` et `end`, comme ceci :
 
 ```ruby
 loop do
