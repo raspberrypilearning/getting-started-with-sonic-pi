@@ -1,10 +1,10 @@
-## Use samples
+## Utiliser des échantillons
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Non seulement tu pourras créer de la musique dans Sonic Pi en utilisant des notes simples, mais tu peux également créer de la musique avec des échantillons. Les échantillons sont des sons préenregistrés ou des musiques que tu peux apporter dans ta musique. C'est une façon vraiment simple de rendre ta musique incroyable !
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+Pour utiliser un échantillon, tu dois ajouter le code `sample :name of sample` dans la séquence de ton programme de musique où tu veux qu'il soit joué.
 
-In this example, `loop_amen` is the name of the sample:
+Dans cet exemple, `loop_amen` est le nom de l'échantillon :
 
 ```ruby
 2.times do
@@ -13,6 +13,6 @@ In this example, `loop_amen` is the name of the sample:
 end
 ```
 
-### Samples to try
+### Échantillons à essayer
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it.
+Il y a beaucoup d'échantillons inclus avec Sonic Pi. Pour trouver leurs noms, clique sur **Help** suivi de **Échantillons** sur le côté gauche de la fenêtre d'aide. Clique sur l'un des noms de l'échantillon pour obtenir plus d'informations sur la façon de l'utiliser.
