@@ -1,4 +1,4 @@
-## What next?
+## Et ensuite ?
 
-- Can you make your own samples and import them into Sonic Pi?
-- Can you create a full original composition and share it with friends?
+- Peux-tu créer tes propres échantillons et les importer dans Sonic Pi ?
+- Peux-tu créer une composition originale complète et la partager avec tes amis ?
