@@ -3,7 +3,7 @@
 ### Matériel informatique
 
 * Casques ou haut-parleur
-* Any computer capable of running [Sonic Pi](https://sonic-pi.net){:target="_blank"} — there are versions for Windows, macOS, Raspberry Pi, and Linux
+* Tout ordinateur capable d'exécuter [Sonic Pi](https://sonic-pi.net){:target="_blank"} - il existe des versions pour Windows, macOS, Raspberry Pi et Linux
 
 ### Logiciel
 
