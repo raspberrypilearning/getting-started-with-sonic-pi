@@ -16,9 +16,10 @@ hardware: ''
 software: sonic-pi
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
+  completion: engaged
 - title: First sounds with Sonic Pi
 - title: Loop a tune
 - title: MIDI notes and music notes
@@ -28,5 +29,6 @@ steps:
 - title: Live code!
 - title: Adding effects
 - title: Modifying Parameters
+  completion: internal
 - title: Using rrand
 - title: What next?

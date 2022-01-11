@@ -17,16 +17,18 @@ software: sonic-pi
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: भूमिका
-  - title: आपको किन चीज़ों की आवश्यकता होगी
-  - title: पहले ध्वनि Sonic Pi के साथ
-  - title: एक धुन को लूप करे
-  - title: MIDI नोट्स और संगीत नोट्स
-  - title: धुन बदलें
-  - title: नमूनों का उपयोग करें
-  - title: एक ही समय में दो धुन बजाना
-  - title: लाइव कोड!
-  - title: प्रभाव जोड़ना
-  - title: पैरामीटर्स को संशोधित करें
-  - title: rrand का उपयोग करना
-  - title: आगे क्या?
+- title: भूमिका
+- title: आपको किन चीज़ों की आवश्यकता होगी
+  completion: engaged
+- title: पहले ध्वनि Sonic Pi के साथ
+- title: एक धुन को लूप करे
+- title: MIDI नोट्स और संगीत नोट्स
+- title: धुन बदलें
+- title: नमूनों का उपयोग करें
+- title: एक ही समय में दो धुन बजाना
+- title: लाइव कोड!
+- title: प्रभाव जोड़ना
+- title: पैरामीटर्स को संशोधित करें
+  completion: internal
+- title: rrand का उपयोग करना
+- title: आगे क्या?
