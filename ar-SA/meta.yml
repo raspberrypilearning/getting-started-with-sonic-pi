@@ -17,16 +17,20 @@ software: sonic-pi
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: المقدمة
-  - title: ما ستحتاج إليه
-  - title: الأصوات الأولى مع Sonic Pi
-  - title: تكرار اللحن
-  - title: نوتات MIDI والنوتات الموسيقية
-  - title: تغيير الأصوات
-  - title: استخدم عيّنات
-  - title: تشغيل نغمتين في نفس الوقت
-  - title: بث مباشر للتعليمات البرمجية!
-  - title: إضافة التأثيرات
-  - title: تعديل المعاملات
-  - title: استخدام rrand
-  - title: ما هي الخطوة التالية؟
+- title: المقدمة
+- title: ما ستحتاج إليه
+- title: الأصوات الأولى مع Sonic Pi
+- title: تكرار اللحن
+  completion:
+  - engaged
+- title: نوتات MIDI والنوتات الموسيقية
+- title: تغيير الأصوات
+- title: استخدم عيّنات
+- title: تشغيل نغمتين في نفس الوقت
+- title: بث مباشر للتعليمات البرمجية!
+- title: إضافة التأثيرات
+- title: تعديل المعاملات
+- title: استخدام rrand
+  completion:
+  - internal
+- title: ما هي الخطوة التالية؟

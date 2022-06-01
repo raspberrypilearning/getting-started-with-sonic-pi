@@ -17,16 +17,20 @@ software: sonic-pi
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Wat heb je nodig
-  - title: Eerste geluiden met Sonic Pi
-  - title: Herhaal een deuntje
-  - title: MIDI-noten en muzieknoten
-  - title: Verander de geluiden
-  - title: Gebruik samples
-  - title: Twee liedjes tegelijkertijd spelen
-  - title: Live coderen!
-  - title: Effecten toevoegen
-  - title: Parameters wijzigen
-  - title: Gebruik van rrand
-  - title: Hoe nu verder?
+- title: Inleiding
+- title: Wat heb je nodig
+- title: Eerste geluiden met Sonic Pi
+- title: Herhaal een deuntje
+  completion:
+  - engaged
+- title: MIDI-noten en muzieknoten
+- title: Verander de geluiden
+- title: Gebruik samples
+- title: Twee liedjes tegelijkertijd spelen
+- title: Live coderen!
+- title: Effecten toevoegen
+- title: Parameters wijzigen
+- title: Gebruik van rrand
+  completion:
+  - internal
+- title: Hoe nu verder?

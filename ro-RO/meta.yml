@@ -17,16 +17,20 @@ software: sonic-pi
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introducere
-  - title: De ce vei avea nevoie
-  - title: Primele sunete cu Sonic Pi
-  - title: Repetă o melodie
-  - title: Note MIDI și note muzicale
-  - title: Modifică sunetele
-  - title: Utilizează eșantioane
-  - title: Redarea a două melodii în același timp
-  - title: Programare live!
-  - title: Adăugarea de efecte
-  - title: Modificarea parametrilor
-  - title: Utilizarea rrand
-  - title: Ce urmează?
+- title: Introducere
+- title: De ce vei avea nevoie
+- title: Primele sunete cu Sonic Pi
+- title: Repetă o melodie
+  completion:
+  - engaged
+- title: Note MIDI și note muzicale
+- title: Modifică sunetele
+- title: Utilizează eșantioane
+- title: Redarea a două melodii în același timp
+- title: Programare live!
+- title: Adăugarea de efecte
+- title: Modificarea parametrilor
+- title: Utilizarea rrand
+  completion:
+  - internal
+- title: Ce urmează?

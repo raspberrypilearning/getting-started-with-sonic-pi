@@ -16,11 +16,13 @@ hardware: ''
 software: sonic-pi
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
 - title: First sounds with Sonic Pi
 - title: Loop a tune
+  completion:
+  - engaged
 - title: MIDI notes and music notes
 - title: Change the sounds
 - title: Use samples
@@ -29,4 +31,6 @@ steps:
 - title: Adding effects
 - title: Modifying Parameters
 - title: Using rrand
+  completion:
+  - internal
 - title: What next?
