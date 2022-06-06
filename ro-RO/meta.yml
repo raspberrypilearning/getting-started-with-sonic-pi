@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: Introducere
 - title: De ce vei avea nevoie
-  completion: engaged
 - title: Primele sunete cu Sonic Pi
 - title: Repetă o melodie
+  completion:
+  - engaged
 - title: Note MIDI și note muzicale
 - title: Modifică sunetele
 - title: Utilizează eșantioane
@@ -29,6 +30,7 @@ steps:
 - title: Programare live!
 - title: Adăugarea de efecte
 - title: Modificarea parametrilor
-  completion: internal
 - title: Utilizarea rrand
+  completion:
+  - internal
 - title: Ce urmează?

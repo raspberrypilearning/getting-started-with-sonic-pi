@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: Inleiding
 - title: Wat heb je nodig
-  completion: engaged
 - title: Eerste geluiden met Sonic Pi
 - title: Herhaal een deuntje
+  completion:
+  - engaged
 - title: MIDI-noten en muzieknoten
 - title: Verander de geluiden
 - title: Gebruik samples
@@ -29,6 +30,7 @@ steps:
 - title: Live coderen!
 - title: Effecten toevoegen
 - title: Parameters wijzigen
-  completion: internal
 - title: Gebruik van rrand
+  completion:
+  - internal
 - title: Hoe nu verder?

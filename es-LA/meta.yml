@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: Introducción
 - title: Lo que necesitarás
-  completion: engaged
 - title: Primeros sonidos con Sonic Pi
 - title: Buclear una melodía
+  completion:
+  - engaged
 - title: Notas MIDI y notas musicales
 - title: Cambia los sonidos
 - title: Usa muestras
@@ -29,6 +30,7 @@ steps:
 - title: "¡Código en vivo!"
 - title: Añade efectos
 - title: Modifica parámetros
-  completion: internal
 - title: Utiliza rrand
+  completion:
+  - internal
 - title: "¿Qué sigue?"

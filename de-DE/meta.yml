@@ -20,9 +20,10 @@ last_tested: 2017-01-01
 steps:
 - title: Einleitung
 - title: Was du brauchen wirst
-  completion: engaged
 - title: Erste Sounds mit Sonic Pi
 - title: Wiederhole eine Melodie
+  completion:
+  - engaged
 - title: MIDI-Noten und Musiknoten
 - title: Ändere die Sounds
 - title: Verwende Samples (Beispiele)
@@ -30,6 +31,7 @@ steps:
 - title: Live-Code!
 - title: Effekte hinzufügen
 - title: Parameter ändern
-  completion: internal
 - title: Rrand verwenden
+  completion:
+  - internal
 - title: Was kommt als Nächstes?

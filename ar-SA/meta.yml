@@ -19,9 +19,10 @@ last_tested: 2017-01-01
 steps:
 - title: المقدمة
 - title: ما ستحتاج إليه
-  completion: engaged
 - title: الأصوات الأولى مع Sonic Pi
 - title: تكرار اللحن
+  completion:
+  - engaged
 - title: نوتات MIDI والنوتات الموسيقية
 - title: تغيير الأصوات
 - title: استخدم عيّنات
@@ -29,6 +30,7 @@ steps:
 - title: بث مباشر للتعليمات البرمجية!
 - title: إضافة التأثيرات
 - title: تعديل المعاملات
-  completion: internal
 - title: استخدام rrand
+  completion:
+  - internal
 - title: ما هي الخطوة التالية؟
