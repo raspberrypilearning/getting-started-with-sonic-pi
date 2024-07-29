@@ -25,6 +25,8 @@ steps:
     title: Primeros sonidos con Sonic Pi
   - 
     title: Buclear una melodía
+    completion:
+      - engaged
   - 
     title: Notas MIDI y notas musicales
   - 
@@ -41,5 +43,7 @@ steps:
     title: Modifica parámetros
   - 
     title: Utiliza rrand
+    completion:
+      - internal
   - 
     title: '¿Qué sigue?'
