@@ -25,6 +25,8 @@ steps:
     title: الأصوات الأولى مع Sonic Pi
   - 
     title: تكرار اللحن
+    completion:
+      - engaged
   - 
     title: نوتات MIDI والنوتات الموسيقية
   - 
@@ -41,5 +43,7 @@ steps:
     title: تعديل المعاملات
   - 
     title: استخدام rrand
+    completion:
+      - internal
   - 
     title: ما هي الخطوة التالية؟
