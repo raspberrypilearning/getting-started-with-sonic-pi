@@ -25,6 +25,8 @@ steps:
     title: पहले ध्वनि Sonic Pi के साथ
   - 
     title: एक धुन को लूप करे
+    completion:
+      - engaged
   - 
     title: MIDI नोट्स और संगीत नोट्स
   - 
@@ -41,5 +43,7 @@ steps:
     title: पैरामीटर्स को संशोधित करें
   - 
     title: rrand का उपयोग करना
+    completion:
+      - internal
   - 
     title: आगे क्या?
