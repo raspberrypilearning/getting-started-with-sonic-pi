@@ -25,6 +25,8 @@ steps:
     title: Primele sunete cu Sonic Pi
   - 
     title: Repetă o melodie
+    completion:
+      - engaged
   - 
     title: Note MIDI și note muzicale
   - 
@@ -41,5 +43,7 @@ steps:
     title: Modificarea parametrilor
   - 
     title: Utilizarea rrand
+    completion:
+      - internal
   - 
     title: Ce urmează?
