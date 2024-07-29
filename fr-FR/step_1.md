@@ -13,7 +13,7 @@ En suivant ce tutoriel Sonic Pi sur ton Raspberry Pi, tu apprendras :
 - Comment jouer deux musiques en même temps en utilisant des threads
 - Pour jouer avec Sonic Pi en codant en direct
 - Comment ajouter des effets et utiliser des paramètres pour modifier le son des notes
-- Comment utiliser la randomisation dans une composition. 
+- Comment utiliser le mode aléatoire dans une composition. 
 
 Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](https://www.raspberrypi.org/curriculum/) :
 
